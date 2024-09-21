@@ -1,0 +1,61 @@
+20
+root_backpack_ziphandle_cloth
+-1
+0.000000 0.945494 0.009869 -0.707107 0 0 0.707107
+backpack_squash_01_backpack_ziphandle_cloth
+0
+0.005801 1.021490 -0.287418 0 0 0 1
+backpack_r_up_belt_01_backpack_ziphandle_cloth
+0
+-0.145617 1.100579 -0.205609 0 0 0 1
+l_shoulder_rear_helper_backpack_ziphandle_cloth
+0
+0.160043 1.303817 -0.089108 0.130862 0.991103 -0.00063 -0.024301
+backpack_fatconst_offset_backpack_ziphandle_cloth
+0
+0.000000 1.151331 -0.110535 0.999927 0 0 -0.01205
+l_scapula_helper_backpack_ziphandle_cloth
+0
+0.120378 1.365925 -0.051871 0.408819 0.801153 -0.367416 0.236697
+r_scapula_helper_backpack_ziphandle_cloth
+0
+-0.120378 1.365926 -0.051871 0.408819 0.801153 -0.367416 0.236697
+l_trap_helper_backpack_ziphandle_cloth
+0
+0.121970 1.422965 -0.017629 0.03037 0.44222 -0.079356 0.892873
+r_trap_helper_backpack_ziphandle_cloth
+0
+-0.121971 1.422965 -0.017629 0.03037 0.44222 -0.079355 0.892873
+spined_backpack_ziphandle_cloth
+0
+0.000000 1.258627 0.001995 -0.707107 0 0 0.707107
+l_clavicle_backpack_ziphandle_cloth
+0
+0.018427 1.336865 0.018023 0 0.707107 0 0.707107
+r_clavicle_backpack_ziphandle_cloth
+0
+-0.018427 1.336865 0.018023 0.707107 0 0.707107 0
+sim1_backpack_ziphandle_cloth
+0
+0.035005 1.297814 -0.126580 -0.707107 0 0 0.707107
+sim2_backpack_ziphandle_cloth
+0
+0.023619 1.273934 -0.142037 -0.707107 0 0 0.707107
+sim3_backpack_ziphandle_cloth
+0
+0.021403 1.209597 -0.195337 -0.707107 0 0 0.707107
+sim4_backpack_ziphandle_cloth
+0
+0.031916 1.181463 -0.207507 -0.707107 0 0 0.707107
+sim5_backpack_ziphandle_cloth
+0
+-0.105126 1.172964 -0.202592 -0.707107 0 0 0.707107
+sim6_backpack_ziphandle_cloth
+0
+-0.108737 1.144568 -0.217783 -0.707107 0 0 0.707107
+sim7_backpack_ziphandle_cloth
+0
+0.128205 0.965213 -0.241127 -0.707107 0 0 0.707107
+sim8_backpack_ziphandle_cloth
+0
+0.132215 0.933121 -0.239091 -0.707107 0 0 0.707107

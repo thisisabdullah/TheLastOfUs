@@ -1,0 +1,46 @@
+version 1
+nodes
+0 "root_backpack_ziphandle_cloth" -1
+1 "backpack_squash_01_backpack_ziphandle_cloth" 0
+2 "backpack_r_up_belt_01_backpack_ziphandle_cloth" 0
+3 "l_shoulder_rear_helper_backpack_ziphandle_cloth" 0
+4 "backpack_fatconst_offset_backpack_ziphandle_cloth" 0
+5 "l_scapula_helper_backpack_ziphandle_cloth" 0
+6 "r_scapula_helper_backpack_ziphandle_cloth" 0
+7 "l_trap_helper_backpack_ziphandle_cloth" 0
+8 "r_trap_helper_backpack_ziphandle_cloth" 0
+9 "spined_backpack_ziphandle_cloth" 0
+10 "l_clavicle_backpack_ziphandle_cloth" 0
+11 "r_clavicle_backpack_ziphandle_cloth" 0
+12 "sim1_backpack_ziphandle_cloth" 0
+13 "sim2_backpack_ziphandle_cloth" 0
+14 "sim3_backpack_ziphandle_cloth" 0
+15 "sim4_backpack_ziphandle_cloth" 0
+16 "sim5_backpack_ziphandle_cloth" 0
+17 "sim6_backpack_ziphandle_cloth" 0
+18 "sim7_backpack_ziphandle_cloth" 0
+19 "sim8_backpack_ziphandle_cloth" 0
+end
+skeleton
+time 0
+0  0.000000 0.945494 0.009869  -1.570796 0.000000 0.000000
+1  0.005801 0.297287 0.075996  1.570796 0.000000 0.000000
+2  -0.145617 0.215477 0.155086  1.570796 0.000000 0.000000
+3  0.160043 0.098977 0.358323  1.565503 -0.262427 -3.091866
+4  0.000000 0.120404 0.205837  -1.546696 0.000000 0.000000
+5  0.120378 0.061740 0.420432  2.673230 -0.501934 2.254394
+6  -0.120378 0.061740 0.420432  2.673229 -0.501933 2.254393
+7  0.121970 0.027498 0.477472  1.696373 0.115103 0.926969
+8  -0.121971 0.027498 0.477472  1.696373 0.115102 0.926969
+9  0.000000 0.007874 0.313134  0.000000 0.000000 0.000000
+10  0.018427 -0.008154 0.391371  1.570796 0.000000 1.570796
+11  -0.018427 -0.008154 0.391371  -1.570796 0.000000 -1.570796
+12  0.035005 0.136449 0.352321  0.000000 0.000000 0.000000
+13  0.023619 0.151906 0.328440  0.000000 0.000000 0.000000
+14  0.021403 0.205206 0.264103  0.000000 0.000000 0.000000
+15  0.031916 0.217376 0.235969  0.000000 0.000000 0.000000
+16  -0.105126 0.212461 0.227470  0.000000 0.000000 0.000000
+17  -0.108737 0.227652 0.199075  0.000000 0.000000 0.000000
+18  0.128205 0.250996 0.019719  0.000000 0.000000 0.000000
+19  0.132215 0.248960 -0.012373  0.000000 0.000000 0.000000
+end

@@ -1,0 +1,2495 @@
+version 1
+nodes
+0 "trajectory" -1
+1 "root" 0
+2 "spinea" 1
+3 "spineb" 2
+4 "spinec" 3
+5 "spined" 4
+6 "neck" 5
+7 "heada" 6
+8 "headb" 7
+9 "l_eyeball" 8
+10 "r_eyeball" 8
+11 "hair_strand" 8
+12 "hair_strand_a" 11
+13 "hair_strand_b" 12
+14 "hair_strand_c" 13
+15 "hair_strand_d" 14
+16 "hair_strand_e" 15
+17 "hair_strand_f" 16
+18 "hair_strand_g" 17
+19 "hair_strand_h" 18
+20 "hair_strand_end" 19
+21 "festival_hair_offset_1" 8
+22 "festival_hair_offset_2" 8
+23 "c_patrol_hair_01" 8
+24 "c_patrol_hair_02" 8
+25 "c_patrol_hair_03" 8
+26 "l_patrol_hair_01" 8
+27 "r_patrol_hair_01" 8
+28 "l_patrol_hair_02" 8
+29 "r_patrol_hair_02" 8
+30 "l_patrol_hair_03" 8
+31 "r_patrol_hair_03" 8
+32 "l_clavicle" 5
+33 "r_clavicle" 5
+34 "l_shoulder" 32
+35 "r_shoulder" 33
+36 "l_elbow" 34
+37 "r_elbow" 35
+38 "l_wrist" 36
+39 "r_wrist" 37
+40 "l_hand_prop" 38
+41 "r_hand_prop" 39
+42 "l_hand_prop_attachment" 40
+43 "r_hand_prop_attachment" 41
+44 "l_palm" 36
+45 "r_palm" 37
+46 "suture_grp" 34
+47 "up_suture_1" 46
+48 "up_suture_2" 46
+49 "up_suture_3" 46
+50 "lo_suture_1" 46
+51 "lo_suture_2" 46
+52 "lo_suture_3" 46
+53 "spine_prop" 5
+54 "spine_prop_attachment" 53
+55 "spine_2_prop" 5
+56 "baby_carrier_front_01_01" 55
+57 "baby_carrier_front_01_02" 55
+58 "baby_carrier_front_01_03" 55
+59 "baby_carrier_front_01_04" 55
+60 "baby_carrier_front_02_01" 55
+61 "baby_carrier_front_02_02" 55
+62 "baby_carrier_front_02_03" 55
+63 "baby_carrier_front_02_04" 55
+64 "baby_carrier_front_03_01" 55
+65 "baby_carrier_front_03_03" 55
+66 "baby_carrier_front_04_01" 55
+67 "baby_carrier_front_04_03" 55
+68 "pelvis" 1
+69 "r_upper_leg" 68
+70 "l_upper_leg" 68
+71 "r_knee" 69
+72 "l_knee" 70
+73 "r_ankle" 71
+74 "l_ankle" 72
+75 "r_ball" 73
+76 "l_ball" 74
+77 "r_toe" 75
+78 "l_toe" 76
+79 "r_ball_attach" 75
+80 "l_ball_attach" 76
+81 "r_heel" 73
+82 "l_heel" 74
+83 "mover_offset_jnts" 1
+84 "gun_holster_jnt" 83
+85 "knife_holster_jnt" 83
+86 "hair_collider_offset" 83
+87 "shirt_collider_offset" 83
+88 "l_twist_02_mover_offset" 83
+89 "r_twist_02_mover_offset" 83
+90 "l_twist_03_mover_offset" 83
+91 "r_twist_03_mover_offset" 83
+92 "l_twist_04_mover_offset" 83
+93 "r_twist_04_mover_offset" 83
+94 "l_twist_05_mover_offset" 83
+95 "r_twist_05_mover_offset" 83
+96 "l_twist_06_mover_offset" 83
+97 "r_twist_06_mover_offset" 83
+98 "l_twist_07_mover_offset" 83
+99 "r_twist_07_mover_offset" 83
+100 "r_twist_08_mover_offset" 83
+101 "l_twist_08_mover_offset" 83
+102 "l_twist_01_mover_offset" 83
+103 "r_twist_01_mover_offset" 83
+104 "backpack_l_pocket_01_mover_offset" 83
+105 "backpack_r_pocket_01_mover_offset" 83
+106 "backpack_l_pocket_02_mover_offset" 83
+107 "backpack_r_pocket_02_mover_offset" 83
+108 "l_jacket_01_mover_offset" 83
+109 "r_jacket_01_mover_offset" 83
+110 "l_jacket_02_mover_offset" 83
+111 "r_jacket_02_mover_offset" 83
+112 "l_jacket_03_mover_offset" 83
+113 "r_jacket_03_mover_offset" 83
+114 "l_jacket_04_mover_offset" 83
+115 "r_jacket_04_mover_offset" 83
+116 "l_twist_09_mover_offset" 83
+117 "r_twist_09_mover_offset" 83
+118 "l_twist_10_mover_offset" 83
+119 "r_twist_10_mover_offset" 83
+120 "l_twist_11_mover_offset" 83
+121 "r_twist_11_mover_offset" 83
+122 "l_twist_12_mover_offset" 83
+123 "r_twist_12_mover_offset" 83
+124 "l_twist_13_mover_offset" 83
+125 "r_twist_13_mover_offset" 83
+126 "l_twist_14_mover_offset" 83
+127 "r_twist_14_mover_offset" 83
+128 "l_twist_15_mover_offset" 83
+129 "r_twist_15_mover_offset" 83
+130 "flashlight_attach_offset" 83
+131 "backpack_r_up_01_mover_offset" 83
+132 "backpack_r_up_02_mover_offset" 83
+133 "backpack_r_up_03_mover_offset" 83
+134 "backpack_r_up_04_mover_offset" 83
+135 "backpack_r_dn_01_mover_offset" 83
+136 "backpack_r_dn_02_mover_offset" 83
+137 "backpack_r_dn_03_mover_offset" 83
+138 "backpack_r_dn_04_mover_offset" 83
+139 "slot1_attach_offset" 83
+140 "slot2_attach_offset" 83
+141 "backpack_squash_01_mover_offset" 83
+142 "backpack_body_mover_offset" 83
+143 "backpack_l_squash_01_mover_offset" 83
+144 "root_helper" 0
+145 "pelvis_helper" 144
+146 "l_upper_leg_helper" 145
+147 "l_twist_09" 146
+148 "l_twist_10" 146
+149 "l_twist_11" 146
+150 "r_upper_leg_helper" 145
+151 "r_twist_09" 150
+152 "r_twist_10" 150
+153 "r_twist_11" 150
+154 "l_roll_04" 145
+155 "l_roll_04_base" 145
+156 "r_roll_04" 145
+157 "r_roll_04_base" 145
+158 "r_pelvis_holster" 145
+159 "r_pelvis_holster_up" 145
+160 "r_pelvis_holster_aim" 145
+161 "r_switchblade" 145
+162 "r_switchblade_up" 145
+163 "r_switchblade_aim" 145
+164 "spine_wrinkle_helper" 145
+165 "r_leg_holster" 145
+166 "r_leg_holster_aim" 145
+167 "r_leg_holster_up" 145
+168 "l_upper_leg_helperBend" 145
+169 "l_upper_leg_helperTwist" 168
+170 "r_upper_leg_helperBend" 145
+171 "r_upper_leg_helperTwist" 170
+172 "spinea_helper" 144
+173 "spineb_helper" 172
+174 "spinec_helper" 173
+175 "spined_helper" 174
+176 "neck_helper" 175
+177 "heada_helper" 176
+178 "headb_helper" 177
+179 "noTwist_3" 176
+180 "m_twist_05" 179
+181 "constrained_3" 179
+182 "noTwist_4" 181
+183 "constrained_4" 182
+184 "l_clavicle_helper" 175
+185 "l_shoulder_helper" 184
+186 "l_twist_01" 185
+187 "l_twist_01_offset" 186
+188 "l_shoulder_front_helper" 187
+189 "l_shoulder_rear_helper" 187
+190 "l_deltoid_helper" 187
+191 "l_twist_00" 184
+192 "l_trap_helper" 184
+193 "l_scapula_helper" 184
+194 "l_lat_helper" 184
+195 "flashlight_attach_aim" 184
+196 "flashlight_attach_up" 184
+197 "flashlight_attach_space" 184
+198 "flashlight_attach" 197
+199 "r_clavicle_helper" 175
+200 "r_shoulder_helper" 199
+201 "r_twist_01" 200
+202 "r_twist_01_offset" 201
+203 "r_shoulder_front_helper" 202
+204 "r_shoulder_rear_helper" 202
+205 "r_deltoid_helper" 202
+206 "r_twist_00" 199
+207 "r_trap_helper" 199
+208 "r_scapula_helper" 199
+209 "r_lat_helper" 199
+210 "l_chest_helper" 175
+211 "r_chest_helper" 175
+212 "l_trap_fix_helper" 175
+213 "r_trap_fix_helper" 175
+214 "machete_holster" 175
+215 "machete_holster_up" 175
+216 "machete_holster_aim" 175
+217 "slot_1_helper" 175
+218 "slot_1_space" 217
+219 "slot_1_aim" 175
+220 "slot_1_up" 175
+221 "slot_2_helper" 175
+222 "slot_2_space" 221
+223 "slot_2_up" 175
+224 "slot_2_aim" 175
+225 "l_shoulder_arrow_attach_space" 175
+226 "l_shoulder_arrow_attach" 225
+227 "l_shoulder_arrow_attach_aim" 175
+228 "l_shoulder_arrow_attach_up" 175
+229 "r_shoulder_arrow_attach_space" 175
+230 "r_shoulder_arrow_attach" 229
+231 "r_shoulder_arrow_attach_aim" 175
+232 "r_shoulder_arrow_attach_up" 175
+233 "m_roll_02" 174
+234 "backpack_fatconst_space" 174
+235 "backpack_fatconst" 234
+236 "backpack_fatconst_offset" 235
+237 "backpack_r_pocket_02_space" 236
+238 "backpack_r_pocket_02" 237
+239 "backpack_r_up_belt_04_space" 236
+240 "backpack_r_up_belt_04" 239
+241 "backpack_squash_01_space" 236
+242 "backpack_squash_01" 241
+243 "backpack_l_squash_01_space" 236
+244 "backpack_l_squash_01" 243
+245 "backpack_fatconst_driver" 174
+246 "arrow_in_backpack_space" 174
+247 "arrow_slot_1" 246
+248 "arrow_slot_2" 246
+249 "arrow_slot_3" 246
+250 "arrow_slot_4" 246
+251 "noTwist_0" 172
+252 "m_twist_01" 251
+253 "constrained_0" 251
+254 "noTwist_1" 253
+255 "m_twist_02" 254
+256 "constrained_1" 254
+257 "noTwist_2" 256
+258 "m_twist_03" 257
+259 "constrained_2" 257
+260 "m_twist_04" 257
+261 "rifle_strap_straight_helper_grp" 144
+262 "rifle_strap_straight_01_space" 261
+263 "rifle_strap_straight_01" 262
+264 "rifle_strap_straight_02_space" 261
+265 "rifle_strap_straight_02" 264
+266 "rifle_strap_straight_03_space" 261
+267 "rifle_strap_straight_03" 266
+268 "rifle_strap_straight_04_space" 261
+269 "rifle_strap_straight_04" 268
+270 "rifle_strap_straight_05_space" 261
+271 "rifle_strap_straight_05" 270
+272 "rifle_strap_straight_06_space" 261
+273 "rifle_strap_straight_06" 272
+274 "rifle_strap_straight_07_space" 261
+275 "rifle_strap_straight_07" 274
+276 "rifle_strap_straight_08_space" 261
+277 "rifle_strap_straight_08" 276
+278 "rifle_strap_straight_09_space" 261
+279 "rifle_strap_straight_09" 278
+280 "rifle_strap_straight_10_space" 261
+281 "rifle_strap_straight_10" 280
+282 "rifle_strap_straight_11_space" 261
+283 "rifle_strap_straight_11" 282
+284 "rifle_strap_straight_12_space" 261
+285 "rifle_strap_straight_12" 284
+286 "rifle_strap_straight_13_space" 261
+287 "rifle_strap_straight_13" 286
+288 "rifle_strap_straight_14_space" 261
+289 "rifle_strap_straight_14" 288
+290 "rifle_strap_straight_15_space" 261
+291 "rifle_strap_straight_15" 290
+292 "rifle_strap_def_helper_grp" 144
+293 "rifle_strap_def_01_space" 292
+294 "rifle_strap_def_01" 293
+295 "rifle_strap_def_02_space" 292
+296 "rifle_strap_def_02" 295
+297 "rifle_strap_def_03_space" 292
+298 "rifle_strap_def_03" 297
+299 "rifle_strap_def_04_space" 292
+300 "rifle_strap_def_04" 299
+301 "rifle_strap_def_05_space" 292
+302 "rifle_strap_def_05" 301
+303 "rifle_strap_def_06_space" 292
+304 "rifle_strap_def_06" 303
+305 "rifle_strap_def_07_space" 292
+306 "rifle_strap_def_07" 305
+307 "rifle_strap_def_08_space" 292
+308 "rifle_strap_def_08" 307
+309 "rifle_strap_def_09_space" 292
+310 "rifle_strap_def_09" 309
+311 "rifle_strap_def_10_space" 292
+312 "rifle_strap_def_10" 311
+313 "rifle_strap_def_11_space" 292
+314 "rifle_strap_def_11" 313
+315 "rifle_strap_def_12_space" 292
+316 "rifle_strap_def_12" 315
+317 "rifle_strap_def_13_space" 292
+318 "rifle_strap_def_13" 317
+319 "rifle_strap_def_14_space" 292
+320 "rifle_strap_def_14" 319
+321 "rifle_strap_def_15_space" 292
+322 "rifle_strap_def_15" 321
+323 "l_thumba" 38
+324 "r_thumba" 39
+325 "l_thumbb" 323
+326 "r_thumbb" 324
+327 "l_thumbc" 325
+328 "r_thumbc" 326
+329 "l_index_meta" 38
+330 "r_index_meta" 39
+331 "l_indexa" 329
+332 "r_indexa" 330
+333 "l_indexb" 331
+334 "r_indexb" 332
+335 "l_indexc" 333
+336 "r_indexc" 334
+337 "l_middle_meta" 38
+338 "r_middle_meta" 39
+339 "l_middlea" 337
+340 "r_middlea" 338
+341 "l_middleb" 339
+342 "r_middleb" 340
+343 "l_middlec" 341
+344 "r_middlec" 342
+345 "l_ring_meta" 38
+346 "r_ring_meta" 39
+347 "l_ringa" 345
+348 "r_ringa" 346
+349 "l_ringb" 347
+350 "r_ringb" 348
+351 "l_ringc" 349
+352 "r_ringc" 350
+353 "l_pinky_meta" 38
+354 "r_pinky_meta" 39
+355 "l_pinkya" 353
+356 "r_pinkya" 354
+357 "l_pinkyb" 355
+358 "r_pinkyb" 356
+359 "l_pinkyc" 357
+360 "r_pinkyc" 358
+361 "jaw" 8
+362 "tongue_a" 361
+363 "tongue_b" 362
+364 "tongue_c" 363
+365 "tongue_d" 364
+366 "lower_teeth" 361
+367 "brow_grp" 8
+368 "l_outereye_3" 367
+369 "l_outereye_4" 367
+370 "l_outereye_16" 367
+371 "l_outereye_19" 367
+372 "l_outereye_36" 367
+373 "l_outereye_37" 367
+374 "l_outereye_40" 367
+375 "l_outereye_52" 367
+376 "r_outereye_3" 367
+377 "r_outereye_4" 367
+378 "r_outereye_16" 367
+379 "r_outereye_19" 367
+380 "r_outereye_37" 367
+381 "r_outereye_40" 367
+382 "r_outereye_52" 367
+383 "r_outereye_36" 367
+384 "l_brow_14" 367
+385 "l_brow_44" 367
+386 "r_brow_3" 367
+387 "r_brow_14" 367
+388 "r_brow_44" 367
+389 "m_head_2" 367
+390 "m_head_3" 367
+391 "l_outereye_68" 367
+392 "l_outereye_69" 367
+393 "r_outereye_68" 367
+394 "r_outereye_69" 367
+395 "l_outereye_70" 367
+396 "r_outereye_70" 367
+397 "l_outereye_71" 367
+398 "r_outereye_71" 367
+399 "mouth_grp" 8
+400 "l_lips_12" 399
+401 "l_lips_28" 399
+402 "l_lips_32" 399
+403 "l_lips_44" 399
+404 "m_lips_0" 399
+405 "m_lips_2" 399
+406 "m_lips_4" 399
+407 "m_lips_6" 399
+408 "r_lips_12" 399
+409 "r_lips_28" 399
+410 "r_lips_32" 399
+411 "r_lips_44" 399
+412 "l_outerlips_10" 399
+413 "l_outerlips_24" 399
+414 "l_outerlips_40" 399
+415 "l_outerlips_47" 399
+416 "m_outerlips_0" 399
+417 "r_outerlips_10" 399
+418 "r_outerlips_24" 399
+419 "r_outerlips_40" 399
+420 "r_outerlips_47" 399
+421 "m_mouthbag_0" 399
+422 "m_mouthbag_1" 399
+423 "l_mouthbag_0" 399
+424 "r_mouthbag_0" 399
+425 "l_chin_6" 399
+426 "r_chin_6" 399
+427 "l_cheek_22" 399
+428 "l_cheek_34" 399
+429 "r_cheek_22" 399
+430 "r_cheek_34" 399
+431 "l_nose_11" 399
+432 "m_nose_6" 399
+433 "r_nose_11" 399
+434 "l_ear_0" 399
+435 "r_ear_0" 399
+436 "m_neck_6" 399
+437 "upper_teeth" 8
+438 "eyelash_grp" 8
+439 "l_eyelash_00" 438
+440 "r_eyelash_00" 438
+441 "l_eyelash_01" 438
+442 "r_eyelash_01" 438
+443 "l_eyelash_03" 438
+444 "r_eyelash_03" 438
+445 "l_eyelash_05" 438
+446 "r_eyelash_05" 438
+447 "l_eyelash_06" 438
+448 "r_eyelash_06" 438
+449 "l_eyelash_07" 438
+450 "r_eyelash_07" 438
+451 "l_eyelash_09" 438
+452 "r_eyelash_09" 438
+453 "l_eyelash_11" 438
+454 "r_eyelash_11" 438
+455 "l_eyelash_13" 438
+456 "r_eyelash_13" 438
+457 "l_outereye_11" 367
+458 "l_outereye_24" 367
+459 "l_outereye_27" 367
+460 "l_outereye_34" 367
+461 "l_outereye_43" 367
+462 "l_outereye_44" 367
+463 "l_outereye_59" 367
+464 "l_outereye_60" 367
+465 "r_outereye_11" 367
+466 "r_outereye_24" 367
+467 "r_outereye_27" 367
+468 "r_outereye_34" 367
+469 "r_outereye_43" 367
+470 "r_outereye_44" 367
+471 "r_outereye_59" 367
+472 "r_outereye_60" 367
+473 "l_brow_0" 367
+474 "l_brow_2" 367
+475 "l_brow_11" 367
+476 "l_brow_26" 367
+477 "l_brow_39" 367
+478 "l_brow_40" 367
+479 "m_brow_4" 367
+480 "r_brow_0" 367
+481 "r_brow_2" 367
+482 "r_brow_11" 367
+483 "r_brow_26" 367
+484 "r_brow_39" 367
+485 "r_brow_40" 367
+486 "l_head_5" 367
+487 "l_head_9" 367
+488 "m_head_1" 367
+489 "r_head_5" 367
+490 "r_head_9" 367
+491 "l_outereye_61" 367
+492 "r_outereye_61" 367
+493 "l_outereye_62" 367
+494 "r_outereye_62" 367
+495 "l_lips_7" 399
+496 "l_lips_20" 399
+497 "l_lips_22" 399
+498 "l_lips_23" 399
+499 "l_lips_40" 399
+500 "l_lips_42" 399
+501 "l_lips_43" 399
+502 "r_lips_7" 399
+503 "r_lips_20" 399
+504 "r_lips_22" 399
+505 "r_lips_23" 399
+506 "r_lips_40" 399
+507 "r_lips_42" 399
+508 "r_lips_43" 399
+509 "l_outerlips_2" 399
+510 "l_outerlips_18" 399
+511 "l_outerlips_26" 399
+512 "l_outerlips_32" 399
+513 "l_outerlips_42" 399
+514 "m_outerlips_2" 399
+515 "r_outerlips_2" 399
+516 "r_outerlips_18" 399
+517 "r_outerlips_26" 399
+518 "r_outerlips_32" 399
+519 "r_outerlips_42" 399
+520 "l_chin_3" 399
+521 "l_chin_5" 399
+522 "m_chin_3" 399
+523 "r_chin_3" 399
+524 "r_chin_5" 399
+525 "l_cheek_5" 399
+526 "l_cheek_10" 399
+527 "l_cheek_14" 399
+528 "l_cheek_15" 399
+529 "l_cheek_20" 399
+530 "l_cheek_23" 399
+531 "l_cheek_30" 399
+532 "l_cheek_31" 399
+533 "l_cheek_35" 399
+534 "r_cheek_5" 399
+535 "r_cheek_10" 399
+536 "r_cheek_14" 399
+537 "r_cheek_15" 399
+538 "r_cheek_20" 399
+539 "r_cheek_23" 399
+540 "r_cheek_30" 399
+541 "r_cheek_31" 399
+542 "r_cheek_35" 399
+543 "l_nose_7" 399
+544 "l_nose_13" 399
+545 "l_nose_19" 399
+546 "l_nose_20" 399
+547 "m_nose_7" 399
+548 "r_nose_7" 399
+549 "r_nose_13" 399
+550 "r_nose_19" 399
+551 "r_nose_20" 399
+552 "hoodie_1" 5
+553 "hoodie_2" 5
+554 "hoodie_3" 5
+555 "hoodie_4" 5
+556 "l_outereye_8" 367
+557 "l_outereye_9" 367
+558 "l_outereye_10" 367
+559 "l_outereye_18" 367
+560 "l_outereye_25" 367
+561 "l_outereye_26" 367
+562 "l_outereye_32" 367
+563 "l_outereye_33" 367
+564 "l_outereye_39" 367
+565 "l_outereye_49" 367
+566 "l_outereye_51" 367
+567 "r_outereye_8" 367
+568 "r_outereye_9" 367
+569 "r_outereye_10" 367
+570 "r_outereye_18" 367
+571 "r_outereye_25" 367
+572 "r_outereye_26" 367
+573 "r_outereye_32" 367
+574 "r_outereye_33" 367
+575 "r_outereye_39" 367
+576 "r_outereye_49" 367
+577 "r_outereye_51" 367
+578 "l_brow_3" 367
+579 "l_brow_5" 367
+580 "l_brow_22" 367
+581 "r_brow_5" 367
+582 "r_brow_22" 367
+583 "l_head_3" 367
+584 "l_head_13" 367
+585 "r_head_3" 367
+586 "r_head_13" 367
+587 "r_nose_2" 367
+588 "l_nose_2" 367
+589 "l_outereye_63" 367
+590 "l_outereye_64" 367
+591 "l_outereye_65" 367
+592 "l_outereye_66" 367
+593 "l_outereye_67" 367
+594 "r_outereye_63" 367
+595 "r_outereye_64" 367
+596 "r_outereye_65" 367
+597 "r_outereye_66" 367
+598 "r_outereye_67" 367
+599 "l_lips_4" 399
+600 "l_lips_6" 399
+601 "l_lips_14" 399
+602 "l_lips_15" 399
+603 "l_lips_30" 399
+604 "l_lips_31" 399
+605 "l_lips_34" 399
+606 "l_lips_35" 399
+607 "l_lips_52" 399
+608 "l_lips_54" 399
+609 "l_lips_55" 399
+610 "l_lips_56" 399
+611 "l_lips_57" 399
+612 "l_lips_58" 399
+613 "m_lips_3" 399
+614 "m_lips_7" 399
+615 "r_lips_4" 399
+616 "r_lips_6" 399
+617 "r_lips_14" 399
+618 "r_lips_15" 399
+619 "r_lips_30" 399
+620 "r_lips_31" 399
+621 "r_lips_34" 399
+622 "r_lips_35" 399
+623 "r_lips_52" 399
+624 "r_lips_54" 399
+625 "r_lips_55" 399
+626 "r_lips_56" 399
+627 "r_lips_57" 399
+628 "r_lips_58" 399
+629 "l_outerlips_8" 399
+630 "l_outerlips_34" 399
+631 "r_outerlips_8" 399
+632 "r_outerlips_34" 399
+633 "l_chin_8" 399
+634 "m_chin_1" 399
+635 "m_chin_2" 399
+636 "r_chin_8" 399
+637 "l_cheek_0" 399
+638 "l_cheek_11" 399
+639 "l_cheek_16" 399
+640 "l_cheek_28" 399
+641 "r_cheek_0" 399
+642 "r_cheek_11" 399
+643 "r_cheek_16" 399
+644 "r_cheek_28" 399
+645 "l_nose_17" 399
+646 "m_nose_3" 399
+647 "m_nose_5" 399
+648 "m_nose_8" 399
+649 "r_nose_17" 399
+650 "l_outereye_35" 367
+651 "l_outereye_38" 367
+652 "l_outereye_41" 367
+653 "l_outereye_42" 367
+654 "l_outereye_50" 367
+655 "l_outereye_57" 367
+656 "l_outereye_58" 367
+657 "r_outereye_35" 367
+658 "r_outereye_38" 367
+659 "r_outereye_41" 367
+660 "r_outereye_42" 367
+661 "r_outereye_50" 367
+662 "r_outereye_57" 367
+663 "r_outereye_58" 367
+664 "l_brow_13" 367
+665 "l_brow_24" 367
+666 "l_brow_42" 367
+667 "m_brow_0" 367
+668 "m_brow_2" 367
+669 "r_brow_13" 367
+670 "r_brow_24" 367
+671 "r_brow_42" 367
+672 "m_nose_1" 367
+673 "l_outerlips_9" 399
+674 "l_outerlips_16" 399
+675 "l_outerlips_17" 399
+676 "l_outerlips_25" 399
+677 "l_outerlips_33" 399
+678 "r_outerlips_9" 399
+679 "r_outerlips_16" 399
+680 "r_outerlips_17" 399
+681 "r_outerlips_25" 399
+682 "r_outerlips_33" 399
+683 "l_chin_1" 399
+684 "m_chin_0" 399
+685 "r_chin_1" 399
+686 "l_cheek_4" 399
+687 "l_cheek_8" 399
+688 "l_cheek_9" 399
+689 "l_cheek_21" 399
+690 "l_cheek_29" 399
+691 "l_cheek_33" 399
+692 "r_cheek_4" 399
+693 "r_cheek_8" 399
+694 "r_cheek_9" 399
+695 "r_cheek_21" 399
+696 "r_cheek_29" 399
+697 "r_cheek_33" 399
+698 "l_nose_18" 399
+699 "r_nose_18" 399
+700 "l_knee_helper" 146
+701 "l_ankle_helper" 700
+702 "l_twist_13" 700
+703 "l_twist_13_offset" 702
+704 "l_twist_14" 700
+705 "l_twist_14_offset" 704
+706 "l_twist_15" 700
+707 "l_twist_15_offset" 706
+708 "l_twist_16" 707
+709 "l_ankle_inner_helper" 708
+710 "l_ankle_outer_helper" 708
+711 "l_roll_06" 700
+712 "l_knee_inner_helper" 700
+713 "l_twist_09_offset" 147
+714 "l_twist_10_offset" 148
+715 "l_twist_11_offset" 149
+716 "l_twist_12" 146
+717 "l_twist_12_offset" 716
+718 "l_twist_12_outer_helper" 717
+719 "l_twist_12_inner_helper" 717
+720 "l_roll_05" 146
+721 "l_roll_05_inner_helper" 720
+722 "l_roll_05_outer_helper" 720
+723 "r_knee_helper" 150
+724 "r_ankle_helper" 723
+725 "r_twist_13" 723
+726 "r_twist_13_offset" 725
+727 "r_twist_14" 723
+728 "r_twist_14_offset" 727
+729 "r_twist_15" 723
+730 "r_twist_15_offset" 729
+731 "r_twist_16" 730
+732 "r_ankle_inner_helper" 731
+733 "r_ankle_outer_helper" 731
+734 "r_roll_06" 723
+735 "r_knee_inner_helper" 723
+736 "r_twist_09_offset" 151
+737 "r_twist_10_offset" 152
+738 "r_twist_11_offset" 153
+739 "r_twist_12" 150
+740 "r_twist_12_offset" 739
+741 "r_twist_12_inner_helper" 740
+742 "r_twist_12_outer_helper" 740
+743 "r_roll_05" 150
+744 "r_roll_05_inner_helper" 743
+745 "r_roll_05_outer_helper" 743
+746 "r_pant_holster_lift_helper" 158
+747 "r_shirt_holster_lift_helper" 158
+748 "r_pant_in_helper" 161
+749 "r_pant_out_helper" 161
+750 "l_jacket_01_space" 145
+751 "l_jacket_01_driven" 750
+752 "l_jacket_01" 751
+753 "l_jacket_02_space" 145
+754 "l_jacket_02_driven" 753
+755 "l_jacket_02" 754
+756 "l_jacket_03_space" 145
+757 "l_jacket_03_driven" 756
+758 "l_jacket_03" 757
+759 "l_jacket_04_space" 145
+760 "l_jacket_04_driven" 759
+761 "l_jacket_04" 760
+762 "r_jacket_01_space" 145
+763 "r_jacket_01_driven" 762
+764 "r_jacket_01" 763
+765 "r_jacket_02_space" 145
+766 "r_jacket_02_driven" 765
+767 "r_jacket_02" 766
+768 "r_jacket_03_space" 145
+769 "r_jacket_03_driven" 768
+770 "r_jacket_03" 769
+771 "r_jacket_04_space" 145
+772 "r_jacket_04_driven" 771
+773 "r_jacket_04" 772
+774 "m_roll_01" 177
+775 "m_roll_offset_01" 774
+776 "neck_runtime_grp" 177
+777 "m_neck_0" 776
+778 "m_neck_1" 776
+779 "m_neck_2" 776
+780 "m_neck_3" 776
+781 "m_neck_4" 776
+782 "m_neck_5" 776
+783 "r_neck_0" 776
+784 "r_neck_1" 776
+785 "r_neck_2" 776
+786 "r_neck_3" 776
+787 "r_neck_4" 776
+788 "r_neck_5" 776
+789 "r_neck_6" 776
+790 "r_neck_7" 776
+791 "r_neck_8" 776
+792 "r_neck_9" 776
+793 "l_neck_0" 776
+794 "l_neck_1" 776
+795 "l_neck_2" 776
+796 "l_neck_3" 776
+797 "l_neck_4" 776
+798 "l_neck_5" 776
+799 "l_neck_6" 776
+800 "l_neck_7" 776
+801 "l_neck_8" 776
+802 "l_neck_9" 776
+803 "m_twist_06" 182
+804 "m_twist_07" 182
+805 "l_elbow_helper" 185
+806 "l_elbow_offset_helper" 805
+807 "l_twist_05" 806
+808 "l_twist_05_offset" 807
+809 "l_twist_06" 806
+810 "l_twist_06_offset" 809
+811 "l_twist_07" 806
+812 "l_wrist_upper_a_helper" 811
+813 "l_wrist_lower_helper" 811
+814 "l_twist_07_offset" 811
+815 "l_twist_08" 806
+816 "l_twist_08_offset" 815
+817 "l_roll_03" 806
+818 "l_wrist_helper" 805
+819 "l_index_meta_helper" 818
+820 "l_indexa_helper" 819
+821 "l_indexb_helper" 820
+822 "l_finger_roll_02" 821
+823 "l_indexc_outer_helper" 822
+824 "l_indexc_inner_helper" 822
+825 "l_indexb_inner_lower_helper" 821
+826 "l_finger_roll_01" 820
+827 "l_indexb_outer_helper" 826
+828 "l_indexb_inner_helper" 826
+829 "l_indexa_inner_lower_helper" 820
+830 "l_finger_roll_00" 819
+831 "l_indexa_inner_helper" 830
+832 "l_indexa_outer_helper" 830
+833 "l_indexmeta_inner_helper" 819
+834 "l_indexmeta_outer_helper" 819
+835 "l_middle_meta_helper" 818
+836 "l_middlea_helper" 835
+837 "l_middleb_helper" 836
+838 "l_finger_roll_05" 837
+839 "l_middlec_outer_helper" 838
+840 "l_middlec_inner_helper" 838
+841 "l_middleb_inner_lower_helper" 837
+842 "l_finger_roll_04" 836
+843 "l_middleb_outer_helper" 842
+844 "l_middleb_inner_helper" 842
+845 "l_middlea_inner_lower_helper" 836
+846 "l_finger_roll_03" 835
+847 "l_middlea_outer_helper" 846
+848 "l_middlea_inner_helper" 846
+849 "l_middlemeta_inner_helper" 835
+850 "l_middlemeta_outer_helper" 835
+851 "l_ring_meta_helper" 818
+852 "l_ringa_helper" 851
+853 "l_ringb_helper" 852
+854 "l_finger_roll_08" 853
+855 "l_ringc_outer_helper" 854
+856 "l_ringc_inner_helper" 854
+857 "l_ringb_inner_lower_helper" 853
+858 "l_finger_roll_07" 852
+859 "l_ringb_outer_helper" 858
+860 "l_ringb_inner_helper" 858
+861 "l_ringa_inner_lower_helper" 852
+862 "l_finger_roll_06" 851
+863 "l_ringa_outer_helper" 862
+864 "l_ringa_inner_helper" 862
+865 "l_ringmeta_inner_helper" 851
+866 "l_ringmeta_outer_helper" 851
+867 "l_pinky_meta_helper" 818
+868 "l_pinkya_helper" 867
+869 "l_pinkyb_helper" 868
+870 "l_finger_roll_11" 869
+871 "l_pinkyc_inner_helper" 870
+872 "l_pinkyc_outer_helper" 870
+873 "l_pinkyb_inner_lower_helper" 869
+874 "l_finger_roll_10" 868
+875 "l_pinkyb_inner_helper" 874
+876 "l_pinkyb_outer_helper" 874
+877 "l_pinkya_inner_lower_helper" 868
+878 "l_finger_roll_09" 867
+879 "l_pinkya_inner_helper" 878
+880 "l_pinkya_outer_helper" 878
+881 "l_pinkymeta_inner_helper" 867
+882 "l_thumba_helper" 818
+883 "l_thumbb_helper" 882
+884 "l_finger_roll_13" 883
+885 "l_thumbc_outer_helper" 884
+886 "l_thumbc_inner_helper" 884
+887 "l_thumbb_inner_lower_helper" 883
+888 "l_finger_roll_12" 882
+889 "l_thumbb_inner_helper" 888
+890 "l_thumbb_outer_helper" 888
+891 "l_thumba_inner_lower_helper" 882
+892 "l_finger_roll_14" 882
+893 "l_thumba_outer_helper" 892
+894 "l_thumba_inner_helper" 892
+895 "l_wrist_upper_b_helper" 818
+896 "l_elbow_inner_helper" 805
+897 "l_elbow_outer_lower_helper" 805
+898 "l_elbow_up_helper" 805
+899 "l_elbow_down_helper" 805
+900 "l_twist_02" 185
+901 "l_twist_02_offset" 900
+902 "l_twist_03" 185
+903 "l_twist_03_offset" 902
+904 "l_tricep_helper" 903
+905 "l_twist_04" 185
+906 "l_twist_04_offset" 905
+907 "l_bicep_helper" 906
+908 "l_lower_tricep_helper" 906
+909 "l_roll_02" 185
+910 "l_elbow_outer_upper_helper" 185
+911 "l_roll_01" 184
+912 "r_elbow_helper" 200
+913 "r_elbow_offset_helper" 912
+914 "r_twist_05" 913
+915 "r_twist_05_offset" 914
+916 "r_twist_06" 913
+917 "r_twist_06_offset" 916
+918 "r_twist_07" 913
+919 "r_wrist_upper_a_helper" 918
+920 "r_wrist_lower_helper" 918
+921 "r_twist_07_offset" 918
+922 "r_twist_08" 913
+923 "r_twist_08_offset" 922
+924 "r_roll_03" 913
+925 "r_wrist_helper" 912
+926 "r_index_meta_helper" 925
+927 "r_indexa_helper" 926
+928 "r_indexb_helper" 927
+929 "r_finger_roll_02" 928
+930 "r_indexc_outer_helper" 929
+931 "r_indexc_inner_helper" 929
+932 "r_indexb_inner_lower_helper" 928
+933 "r_finger_roll_01" 927
+934 "r_indexb_outer_helper" 933
+935 "r_indexb_inner_helper" 933
+936 "r_indexa_inner_lower_helper" 927
+937 "r_finger_roll_00" 926
+938 "r_indexa_inner_helper" 937
+939 "r_indexa_outer_helper" 937
+940 "r_indexmeta_inner_helper" 926
+941 "r_indexmeta_outer_helper" 926
+942 "r_middle_meta_helper" 925
+943 "r_middlea_helper" 942
+944 "r_middleb_helper" 943
+945 "r_finger_roll_05" 944
+946 "r_middlec_outer_helper" 945
+947 "r_middlec_inner_helper" 945
+948 "r_middleb_inner_lower_helper" 944
+949 "r_finger_roll_04" 943
+950 "r_middleb_outer_helper" 949
+951 "r_middleb_inner_helper" 949
+952 "r_middlea_inner_lower_helper" 943
+953 "r_finger_roll_03" 942
+954 "r_middlea_outer_helper" 953
+955 "r_middlea_inner_helper" 953
+956 "r_middlemeta_inner_helper" 942
+957 "r_middlemeta_outer_helper" 942
+958 "r_ring_meta_helper" 925
+959 "r_ringa_helper" 958
+960 "r_ringb_helper" 959
+961 "r_finger_roll_08" 960
+962 "r_ringc_outer_helper" 961
+963 "r_ringc_inner_helper" 961
+964 "r_ringb_inner_lower_helper" 960
+965 "r_finger_roll_07" 959
+966 "r_ringb_outer_helper" 965
+967 "r_ringb_inner_helper" 965
+968 "r_ringa_inner_lower_helper" 959
+969 "r_finger_roll_06" 958
+970 "r_ringa_outer_helper" 969
+971 "r_ringa_inner_helper" 969
+972 "r_ringmeta_inner_helper" 958
+973 "r_ringmeta_outer_helper" 958
+974 "r_pinky_meta_helper" 925
+975 "r_pinkya_helper" 974
+976 "r_pinkyb_helper" 975
+977 "r_finger_roll_11" 976
+978 "r_pinkyc_inner_helper" 977
+979 "r_pinkyc_outer_helper" 977
+980 "r_pinkyb_inner_lower_helper" 976
+981 "r_finger_roll_10" 975
+982 "r_pinkyb_inner_helper" 981
+983 "r_pinkyb_outer_helper" 981
+984 "r_pinkya_inner_lower_helper" 975
+985 "r_finger_roll_09" 974
+986 "r_pinkya_inner_helper" 985
+987 "r_pinkya_outer_helper" 985
+988 "r_pinkymeta_inner_helper" 974
+989 "r_thumba_helper" 925
+990 "r_thumbb_helper" 989
+991 "r_finger_roll_13" 990
+992 "r_thumbc_outer_helper" 991
+993 "r_thumbc_inner_helper" 991
+994 "r_thumbb_inner_lower_helper" 990
+995 "r_finger_roll_12" 989
+996 "r_thumbb_inner_helper" 995
+997 "r_thumbb_outer_helper" 995
+998 "r_finger_roll_14" 989
+999 "r_thumba_inner_helper" 998
+1000 "r_thumba_outer_helper" 998
+1001 "r_thumba_inner_lower_helper" 989
+1002 "r_wrist_upper_b_helper" 925
+1003 "r_elbow_inner_helper" 912
+1004 "r_elbow_outer_lower_helper" 912
+1005 "r_elbow_up_helper" 912
+1006 "r_elbow_down_helper" 912
+1007 "r_twist_02" 200
+1008 "r_twist_02_offset" 1007
+1009 "r_twist_03" 200
+1010 "r_twist_03_offset" 1009
+1011 "r_tricep_helper" 1010
+1012 "r_twist_04" 200
+1013 "r_twist_04_offset" 1012
+1014 "r_bicep_helper" 1013
+1015 "r_lower_tricep_helper" 1013
+1016 "r_roll_02" 200
+1017 "r_elbow_outer_upper_helper" 200
+1018 "r_roll_01" 199
+1019 "backpack_r_pocket_01_space" 236
+1020 "backpack_r_pocket_01" 1019
+1021 "backpack_r_up_belt_01_space" 236
+1022 "backpack_r_up_belt_01" 1021
+1023 "backpack_r_up_belt_02_space" 236
+1024 "backpack_r_up_belt_02" 1023
+1025 "backpack_r_up_belt_03_space" 236
+1026 "backpack_r_up_belt_03" 1025
+1027 "backpack_r_dn_belt_01_space" 236
+1028 "backpack_r_dn_belt_01" 1027
+1029 "backpack_r_dn_belt_02_space" 236
+1030 "backpack_r_dn_belt_02" 1029
+1031 "backpack_r_dn_belt_03_space" 236
+1032 "backpack_r_dn_belt_03" 1031
+1033 "backpack_r_dn_belt_04_space" 236
+1034 "backpack_r_dn_belt_04" 1033
+1035 "backpack_l_pocket_02_space" 244
+1036 "backpack_l_pocket_02" 1035
+1037 "backpack_l_pocket_01_space" 244
+1038 "backpack_l_pocket_01" 1037
+1039 "bow_string_helper_grp" 144
+1040 "bow_string_bot_27_space" 1039
+1041 "bow_string_bot_27" 1040
+1042 "bow_string_bot_30_space" 1039
+1043 "bow_string_bot_30" 1042
+1044 "bow_string_bot_33_space" 1039
+1045 "bow_string_bot_33" 1044
+1046 "bow_string_bot_36_space" 1039
+1047 "bow_string_bot_36" 1046
+1048 "bow_string_bot_39_space" 1039
+1049 "bow_string_bot_39" 1048
+1050 "bow_string_bot_42_space" 1039
+1051 "bow_string_bot_42" 1050
+1052 "bow_string_bot_45_space" 1039
+1053 "bow_string_bot_45" 1052
+1054 "bow_string_bot_48_space" 1039
+1055 "bow_string_bot_48" 1054
+1056 "bow_string_bot_51_space" 1039
+1057 "bow_string_bot_51" 1056
+1058 "bow_string_bot_54_space" 1039
+1059 "bow_string_bot_54" 1058
+1060 "bow_string_bot_60_space" 1039
+1061 "bow_string_bot_60" 1060
+1062 "bow_string_top_63" 1060
+1063 "bow_string_top_57_space" 1039
+1064 "bow_string_top_57" 1063
+1065 "bow_string_top_54_space" 1039
+1066 "bow_string_top_54" 1065
+1067 "bow_string_top_51_space" 1039
+1068 "bow_string_top_51" 1067
+1069 "bow_string_top_48_space" 1039
+1070 "bow_string_top_48" 1069
+1071 "bow_string_top_45_space" 1039
+1072 "bow_string_top_45" 1071
+1073 "bow_string_top_41_space" 1039
+1074 "bow_string_top_41" 1073
+end
+skeleton
+time 0
+0  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1  0.000000 0.945494 0.009869  -1.570796 0.000000 0.000000
+2  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+3  0.000000 -0.002352 0.097259  0.000000 0.000000 0.000000
+4  0.000000 0.005982 0.099683  0.000000 0.000000 0.000000
+5  0.000000 0.004243 0.116192  0.000000 0.000000 0.000000
+6  0.000000 -0.002504 0.143069  0.000000 0.000000 0.000000
+7  0.000000 -0.014511 0.051685  0.000000 0.000000 0.000000
+8  0.000000 -0.013858 0.057550  0.000000 0.000000 0.000000
+9  0.030932 -0.072319 0.044975  1.570796 0.000000 0.000000
+10  -0.030584 -0.072310 0.045067  1.570796 0.000000 0.000000
+11  0.000000 0.000000 0.000000  -0.001377 -0.093583 0.209961
+12  0.029477 -0.072208 0.128187  -3.100786 -0.564733 -1.005666
+13  0.000000 0.000000 0.030616  0.353934 -0.366472 -0.374156
+14  0.000000 0.000000 0.026400  0.050222 -0.152117 -0.052907
+15  0.000000 0.000000 0.028809  -0.036111 -0.105077 -0.061705
+16  0.000000 0.000000 0.024082  -0.145099 -0.032316 0.087434
+17  0.000000 0.000000 0.026700  -0.175079 0.043274 0.007301
+18  0.000000 0.000000 0.024236  -0.225913 0.008770 -0.040378
+19  0.000000 0.000000 0.024568  0.027489 -0.289018 -0.114135
+20  0.000000 0.000000 0.024111  0.000000 0.000000 0.000000
+21  0.083194 0.011813 0.058312  0.000000 0.000000 0.000000
+22  0.074802 0.030083 0.030820  0.000000 0.000000 0.000000
+23  0.000000 -0.000973 0.174054  1.570796 0.000000 0.000000
+24  0.000000 0.112851 0.074067  1.570796 0.000000 0.000000
+25  0.000000 0.101038 -0.040515  1.570796 0.000000 0.000000
+26  0.073799 -0.000973 0.120973  1.570796 0.000000 0.000000
+27  -0.073799 -0.000973 0.120973  1.570796 0.000000 0.000000
+28  0.087075 0.012433 0.071351  1.570796 0.000000 0.000000
+29  -0.087075 0.012433 0.071351  1.570796 0.000000 0.000000
+30  0.064342 0.057351 0.011659  1.570796 0.000000 0.000000
+31  -0.064342 0.057351 0.011659  1.570796 0.000000 0.000000
+32  0.018427 -0.016028 0.078238  1.570796 0.000000 1.570796
+33  -0.018427 -0.016028 0.078238  -1.570796 0.000000 -1.570796
+34  0.020927 -0.005056 0.130355  0.959548 0.035387 0.033563
+35  -0.020927 0.005056 -0.130355  0.959548 0.035387 0.033563
+36  0.000000 0.000000 0.274778  0.000000 -0.547359 0.000000
+37  0.000000 0.000000 -0.274778  0.000000 -0.547359 0.000000
+38  0.000000 0.000000 0.252143  0.048194 -0.015139 0.008431
+39  0.000000 0.000000 -0.252143  0.048194 -0.015139 0.008431
+40  -0.001245 -0.030067 0.054176  0.083676 -0.133488 1.712568
+41  0.001246 0.030066 -0.054175  -3.024779 -0.138355 1.706472
+42  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+43  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+44  0.000000 0.000000 0.252143  0.048194 -0.015139 0.008431
+45  0.000000 0.000000 -0.252143  0.048194 -0.015139 0.008431
+46  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+47  -0.022959 0.018871 0.174132  -1.911365 1.359625 0.226717
+48  -0.026479 0.016380 0.172672  -1.938275 1.367779 0.251213
+49  -0.030432 0.013330 0.171461  -2.368951 1.474600 -0.119553
+50  -0.023881 0.019141 0.180923  -1.640928 -0.160966 0.564322
+51  -0.027453 0.016609 0.179800  -1.643053 -0.184411 0.638076
+52  -0.030812 0.013960 0.178680  -1.658019 -0.170554 0.704068
+53  0.000000 0.138193 -0.027141  2.886291 -0.034672 -1.441429
+54  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+55  0.000000 0.138193 -0.027141  2.886291 -0.034672 -1.441429
+56  0.319040 0.123363 -0.055118  -1.502816 0.248657 -1.437380
+57  0.331303 0.138372 0.039726  -1.502814 0.248655 -1.437381
+58  0.336732 0.141803 0.126173  -1.502815 0.248655 -1.437381
+59  0.285647 0.112291 0.201207  -1.502814 0.248655 -1.437381
+60  0.367234 0.057674 -0.074165  -1.502814 0.248655 -1.437381
+61  0.398710 0.055433 0.029348  -1.502814 0.248655 -1.437381
+62  0.402991 0.050016 0.137799  -1.502814 0.248655 -1.437381
+63  0.312280 0.018147 0.220004  -1.502814 0.248655 -1.437381
+64  0.348553 -0.037932 -0.073401  -1.502814 0.248655 -1.437381
+65  0.367290 -0.057104 0.116145  -1.502814 0.248655 -1.437381
+66  0.292438 -0.108653 -0.049836  -1.502814 0.248655 -1.437381
+67  0.285187 -0.124994 0.103156  -1.502814 0.248655 -1.437381
+68  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+69  -0.089122 -0.017218 -0.051418  0.007400 -0.042265 3.141263
+70  0.089122 -0.017218 -0.051418  -3.134192 0.042265 -3.141263
+71  0.000000 0.000000 -0.412969  -0.105584 0.000000 0.000000
+72  0.000000 0.000000 0.412969  -0.105584 0.000000 0.000000
+73  0.000000 0.000000 -0.403792  0.098284 0.042029 0.004473
+74  0.000000 0.000000 0.403792  0.098284 0.042029 0.004473
+75  0.011471 0.119302 -0.059651  1.570799 0.000000 -0.070274
+76  -0.011471 -0.119302 0.059651  1.570799 0.000000 -0.070274
+77  0.000190 -0.018354 -0.073019  0.000000 0.000000 0.000000
+78  -0.000189 0.018354 0.073020  0.000000 0.000000 0.000000
+79  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+80  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+81  -0.003306 -0.044478 -0.079999  1.722061 -0.032263 -0.070311
+82  0.003306 0.044478 0.079999  1.722061 -0.032263 -0.070311
+83  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+84  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+85  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+86  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+87  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+88  0.000000 0.000000 0.000000  2.529156 -0.033542 1.606203
+89  0.000000 0.000000 0.000000  -0.612436 0.033542 -1.606203
+90  0.000000 0.000000 0.000000  2.529156 -0.033542 1.606203
+91  0.000000 0.000000 0.000000  -0.612436 0.033542 -1.606203
+92  0.000000 0.000000 0.000000  2.465212 0.408212 1.274174
+93  0.000000 0.000000 0.000000  -0.612436 0.033542 -1.606203
+94  0.000000 0.000000 0.000000  2.465212 0.408212 1.274174
+95  0.000000 0.000000 0.000000  -0.676381 -0.408212 -1.274174
+96  0.000000 0.000000 0.000000  2.465212 0.408212 1.274174
+97  0.000000 0.000000 0.000000  -0.676381 -0.408212 -1.274174
+98  0.000000 0.000000 0.000000  2.465212 0.408212 1.274174
+99  0.000000 0.000000 0.000000  -0.676381 -0.408212 -1.274174
+100  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+101  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+102  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+103  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+104  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+105  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+106  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+107  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+108  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+109  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+110  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+111  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+112  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+113  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+114  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+115  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+116  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+117  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+118  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+119  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+120  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+121  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+122  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+123  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+124  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+125  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+126  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+127  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+128  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+129  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+130  0.000000 0.000000 0.000000  1.213946 0.000000 0.000000
+131  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+132  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+133  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+134  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+135  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+136  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+137  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+138  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+139  0.000000 0.000000 0.000000  -3.039373 0.018591 2.964242
+140  0.000000 0.000000 0.000000  -2.853117 -0.009798 3.032408
+141  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+142  0.000000 0.000000 0.000000  -1.546696 0.000000 0.000000
+143  0.000000 0.000000 0.000000  -1.546696 0.000000 0.000000
+144  0.000000 0.945494 0.009869  -1.570796 0.000000 0.000000
+145  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+146  0.089122 -0.017218 -0.051418  -3.134192 0.042265 -3.141263
+147  0.000000 0.000000 0.008259  0.000000 0.000000 0.000000
+148  0.000000 0.000000 0.103242  0.000000 0.000000 0.000000
+149  0.000000 0.000000 0.206485  0.000000 0.000000 0.000000
+150  -0.089122 -0.017218 -0.051418  0.007400 -0.042265 3.141263
+151  0.000000 0.000000 -0.008259  0.000000 0.000000 0.000000
+152  0.000000 0.000000 -0.103242  0.000000 0.000000 0.000000
+153  0.000000 0.000000 -0.206485  0.000000 0.000000 0.000000
+154  0.088231 -0.017046 -0.050904  -3.134192 0.042265 -3.141263
+155  0.088231 -0.017046 -0.050904  -3.134192 0.042265 -3.141263
+156  -0.088231 -0.017046 -0.050904  0.007400 -0.042265 3.141263
+157  -0.088231 -0.017046 -0.050904  0.007400 -0.042265 3.141263
+158  -0.072649 0.079186 -0.000868  0.000000 0.000000 0.000000
+159  -0.072649 0.097999 -0.000868  0.000000 0.000000 0.000000
+160  -0.072649 0.079186 -0.021339  0.000000 0.000000 0.000000
+161  -0.097964 0.092332 -0.080122  0.000000 0.000000 0.000000
+162  -0.097964 0.101790 -0.080122  0.000000 0.000000 0.000000
+163  -0.097964 0.092332 -0.093553  0.000000 0.000000 0.000000
+164  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+165  -0.185195 -0.025195 -0.182432  3.139879 -0.047573 -0.177826
+166  -0.182986 -0.025675 -0.229868  1.570796 0.000000 0.000000
+167  -0.189409 -0.048631 -0.182392  1.570796 0.000000 0.000000
+168  0.089122 -0.017218 -0.051418  -3.134192 0.042265 -3.141263
+169  0.000000 0.000000 0.206485  0.000000 0.000000 0.000000
+170  -0.089122 -0.017218 -0.051418  0.007400 -0.042265 3.141263
+171  0.000000 0.000000 -0.206485  0.000000 0.000000 0.000000
+172  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+173  0.000000 -0.002352 0.097259  0.000000 0.000000 0.000000
+174  0.000000 0.005982 0.099683  0.000000 0.000000 0.000000
+175  0.000000 0.004243 0.116192  0.000000 0.000000 0.000000
+176  0.000000 -0.002504 0.143069  0.000000 0.000000 0.000000
+177  0.000000 -0.014511 0.051685  0.000000 0.000000 0.000000
+178  0.000000 -0.013858 0.057550  0.000000 0.000000 0.000000
+179  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+180  0.000000 0.000000 0.000000  0.273704 0.000000 0.000000
+181  0.000000 -0.014511 0.051685  0.000000 0.000000 0.000000
+182  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+183  0.000000 -0.013858 0.057550  0.000000 0.000000 0.000000
+184  0.018427 -0.016028 0.078238  1.570796 0.000000 1.570796
+185  0.020927 -0.005056 0.130355  0.959548 0.035387 0.033563
+186  0.000000 0.000000 0.005489  0.000000 0.000000 0.000000
+187  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+188  -0.077904 0.000971 0.010987  -1.625835 -0.275937 -1.780041
+189  0.084764 -0.006030 0.027979  -1.546115 0.875180 -1.578788
+190  0.015899 0.058838 0.010902  -1.398894 0.900399 -1.187410
+191  0.010464 -0.002528 0.065177  0.038282 0.159184 0.000000
+192  0.035652 0.086100 0.103543  0.211560 -0.638870 -0.143558
+193  0.069894 0.029060 0.101951  1.475968 0.586780 0.615988
+194  0.017784 -0.131753 0.127275  -3.070243 1.072676 -3.122555
+195  -0.055004 0.014323 -0.146855  -0.356850 -1.570796 0.000000
+196  -0.065014 -0.012527 -0.127700  -0.356850 -1.570796 0.000000
+197  -0.065014 -0.012527 -0.146855  -0.356850 -1.570796 0.000000
+198  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+199  -0.018427 -0.016028 0.078238  -1.570796 0.000000 -1.570796
+200  -0.020927 0.005056 -0.130355  0.959548 0.035387 0.033563
+201  0.000000 0.000000 -0.005496  0.000000 0.000000 0.000000
+202  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+203  0.077905 -0.000967 -0.010993  -1.625835 -0.275936 -1.780039
+204  -0.084764 0.006033 -0.027985  -1.546114 0.875180 -1.578786
+205  -0.015898 -0.058834 -0.010908  -1.398892 0.900399 -1.187408
+206  -0.010464 0.002528 -0.065177  0.038282 0.159184 0.000000
+207  -0.035652 -0.086100 -0.103543  0.211559 -0.638870 2.998036
+208  -0.069894 -0.029060 -0.101951  1.475967 0.586780 -2.525605
+209  -0.017784 0.131753 -0.127275  -3.070242 1.072676 0.019037
+210  0.100383 -0.103197 0.027884  1.696961 -0.370937 1.741795
+211  -0.100383 -0.103197 0.027884  -1.444631 0.370937 -1.741794
+212  0.058935 0.000000 0.164866  1.570796 0.000000 1.570796
+213  -0.058935 0.000000 0.164866  -1.570796 0.000000 -1.570796
+214  -0.155088 0.157607 -0.198584  0.000000 0.000000 0.000000
+215  -0.155088 0.166868 -0.198584  0.000000 0.000000 0.000000
+216  -0.155088 0.157607 -0.207214  0.000000 0.000000 0.000000
+217  0.160248 0.109498 -0.069802  -3.013176 0.023715 2.961510
+218  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+219  0.160252 0.107276 -0.086722  -3.039373 0.018591 2.964242
+220  0.163264 0.125830 -0.071544  -3.039373 0.018591 2.964242
+221  0.203855 0.144018 -0.107088  -2.858606 -0.010567 3.032788
+222  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+223  0.205584 0.160315 -0.111922  -2.853117 -0.009798 3.032408
+224  0.203219 0.139668 -0.122195  -2.853117 -0.009798 3.032408
+225  0.168631 -0.033848 0.093897  2.095294 -0.172737 -2.852743
+226  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+227  0.180870 -0.030211 0.091669  1.570796 0.000000 0.000000
+228  0.174463 -0.021415 0.110300  1.570796 0.000000 0.000000
+229  -0.150413 -0.038421 0.098169  2.174391 0.097498 -3.058973
+230  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+231  -0.167515 -0.039837 0.096490  1.570796 0.000000 0.000000
+232  -0.154821 -0.028105 0.113336  1.570796 0.000000 0.000000
+233  0.000000 0.004243 0.116192  0.000000 0.000000 0.000000
+234  0.000000 0.106776 0.008655  -1.546696 0.000000 0.000000
+235  0.000000 0.000000 0.010000  0.000000 0.000000 0.000000
+236  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+237  -0.144342 0.067433 0.011483  3.117492 0.000000 0.000000
+238  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+239  -0.133752 -0.033935 0.004169  3.117492 0.000000 0.000000
+240  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+241  0.005801 0.134066 0.173703  3.117492 0.000000 0.000000
+242  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+243  0.164714 0.081144 0.052061  0.000000 0.000000 0.000000
+244  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+245  0.000000 0.106776 0.008655  -1.546696 0.000000 0.000000
+246  -0.006818 0.200695 -0.044563  -3.018052 -0.356442 -0.271974
+247  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+248  -0.001944 -0.000825 -0.011601  -0.045585 -0.040639 -0.329739
+249  -0.003871 0.002050 0.029383  0.010404 -0.099362 -0.752588
+250  -0.013009 -0.001795 0.014296  0.170987 -0.091941 -1.239981
+251  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+252  0.000000 0.000000 0.000000  0.024178 0.000000 0.000000
+253  0.000000 -0.002352 0.097259  0.000000 0.000000 0.000000
+254  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+255  0.000000 0.000000 0.000000  -0.059943 0.000000 0.000000
+256  0.000000 0.005982 0.099683  0.000000 0.000000 0.000000
+257  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+258  0.000000 0.000000 0.000000  -0.036504 0.000000 0.000000
+259  0.000000 0.004243 0.116192  0.000000 0.000000 0.000000
+260  0.000000 0.004243 0.116192  0.000000 0.000000 0.000000
+261  0.142924 0.143269 0.286828  -2.875674 0.160390 -3.126686
+262  0.017909 0.044996 0.457166  2.908416 1.041254 -1.525226
+263  0.000000 0.000000 0.000000  1.701534 1.553226 -3.141499
+264  0.019450 0.003691 0.383695  2.808431 1.036027 -1.764601
+265  0.000001 0.000000 0.000001  -1.570797 1.570795 0.000000
+266  0.012317 -0.032651 0.321172  2.821221 1.001574 -1.823671
+267  0.000001 0.000000 0.000001  -1.570793 1.570785 0.000000
+268  0.002478 -0.070728 0.259709  2.683279 1.013515 -1.843198
+269  0.000001 0.000000 0.000001  -1.570800 1.570779 0.000000
+270  -0.007656 -0.107006 0.199266  2.480177 1.050853 -1.839014
+271  0.000001 0.000000 0.000001  -1.570802 1.570783 0.000000
+272  -0.017484 -0.142766 0.134486  2.155914 1.072469 -1.878968
+273  0.000001 0.000000 0.000001  -1.570799 1.570777 0.000000
+274  -0.027977 -0.175730 0.070909  2.263729 1.179151 -1.721460
+275  0.000000 0.000000 0.000001  -1.570800 1.570788 0.000000
+276  -0.032084 -0.202780 0.004659  2.189217 1.217400 -1.851495
+277  0.000000 0.000001 0.000001  -1.301885 1.510012 0.000069
+278  -0.026613 -0.211813 -0.067579  2.212956 1.488762 -1.486666
+279  -0.000002 0.000000 0.000001  -0.957429 1.490477 -0.000671
+280  -0.009304 -0.180931 -0.125432  -1.488174 1.020506 1.221795
+281  0.000000 0.000000 0.000001  -1.037064 1.486286 -0.000011
+282  0.004938 -0.137173 -0.149465  -1.122128 0.391179 1.490879
+283  -0.000001 0.000000 0.000001  -0.876965 1.339925 0.000088
+284  0.013524 -0.096004 -0.135369  -1.321986 -0.348282 1.462230
+285  0.000000 0.000000 0.000001  -1.178867 1.475871 -0.000159
+286  0.019764 -0.044750 -0.087174  -2.271841 -0.782328 1.507199
+287  0.000000 -0.000001 0.000000  -1.570793 1.570788 0.000000
+288  0.023062 0.007031 -0.035606  -2.593901 -0.807135 1.485963
+289  0.000000 -0.000001 0.000000  1.664543 1.541873 3.141322
+290  0.022256 0.053345 0.020230  -2.947603 -0.831447 1.602597
+291  0.000000 0.000000 0.000000  -1.508174 1.523033 -0.000145
+292  0.193141 0.103601 0.314640  -2.903851 0.000515 -2.942586
+293  0.017909 0.044996 0.457165  -3.097800 1.032078 -1.469742
+294  0.000000 0.000000 0.000000  1.564954 1.531616 3.141589
+295  0.021802 0.007930 0.388875  3.066664 1.134977 -1.485894
+296  0.000001 0.000000 0.000000  -1.570793 1.570793 0.000000
+297  0.024147 -0.019631 0.329478  2.911804 1.146529 -1.492768
+298  0.000001 0.000000 0.000000  -1.570797 1.570794 0.000000
+299  0.026283 -0.046944 0.268825  2.645787 1.143505 -1.459691
+300  0.000001 0.000000 0.000001  -1.570799 1.570782 0.000000
+301  0.029255 -0.073586 0.209951  2.434828 1.136051 -1.412046
+302  0.000001 0.000000 0.000001  -1.570794 1.570776 0.000000
+303  0.033730 -0.101543 0.148983  2.247025 1.148156 -1.375132
+304  0.000001 0.000000 0.000001  -1.570800 1.570781 0.000000
+305  0.038944 -0.127848 0.089355  2.315657 1.201743 -1.289743
+306  0.000000 0.000000 0.000001  -1.570801 1.570793 0.000000
+307  0.045580 -0.150832 0.027503  2.356698 1.246761 -1.408019
+308  0.000000 0.000001 0.000001  -1.366001 1.510524 0.000116
+309  0.053671 -0.158554 -0.037478  2.243634 1.489187 -1.278103
+310  -0.000001 0.000000 0.000000  -1.127879 1.463576 -0.000181
+311  0.058721 -0.138383 -0.089070  -1.191818 1.160413 1.594699
+312  0.000000 0.000000 0.000000  -1.044939 1.463569 -0.000106
+313  0.063557 -0.090096 -0.124413  -1.055702 0.507183 1.784533
+314  0.000000 0.000000 0.000000  -0.848990 1.280213 0.000084
+315  0.060685 -0.049475 -0.114085  -1.125271 -0.331547 1.811739
+316  0.000000 0.000000 0.000000  -1.133179 1.387651 0.000063
+317  0.054768 -0.019100 -0.082102  -1.604464 -0.985845 1.954608
+318  0.000000 0.000000 0.000000  -1.570803 1.570784 0.000000
+319  0.041145 0.014635 -0.027165  -2.031119 -0.964589 2.038103
+320  0.000000 0.000000 0.000000  -1.684296 1.519355 0.000112
+321  0.022144 0.052946 0.020544  -2.465259 -0.730516 2.168030
+322  0.000000 0.000000 0.000000  -1.858292 1.424835 -0.000003
+323  -0.021776 -0.012079 0.023871  -0.515918 -0.377443 1.532202
+324  0.021776 0.012079 -0.023871  -0.515918 -0.377443 1.532202
+325  0.000000 0.000000 0.036700  0.240840 0.000000 0.000000
+326  0.000000 0.000000 -0.036701  0.240840 0.000000 0.000000
+327  0.000000 0.000000 0.027425  0.122832 0.000000 0.000000
+328  0.000000 0.000000 -0.027424  0.122832 0.000000 0.000000
+329  -0.013870 -0.000056 0.025840  -0.102594 -0.106147 0.111030
+330  0.013871 0.000056 -0.025840  -0.102594 -0.106147 0.111030
+331  0.000000 0.000000 0.060191  0.229625 0.098616 -0.093314
+332  0.000000 0.000000 -0.060191  0.229625 0.098616 -0.093314
+333  0.000000 0.000000 0.043035  0.378914 0.000000 0.000000
+334  0.000000 0.000000 -0.043035  0.378914 0.000000 0.000000
+335  0.000000 0.000000 0.019804  0.166506 0.000000 0.000000
+336  0.000000 0.000000 -0.019805  0.166506 0.000000 0.000000
+337  -0.003044 0.001978 0.023589  -0.133266 0.051595 0.003051
+338  0.003045 -0.001978 -0.023589  -0.133266 0.051595 0.003051
+339  0.000000 0.000000 0.062720  0.254433 0.080699 -0.048427
+340  0.000000 0.000000 -0.062720  0.254433 0.080699 -0.048427
+341  0.000000 0.000000 0.047331  0.421715 0.000000 0.000000
+342  0.000000 0.000000 -0.047331  0.421715 0.000000 0.000000
+343  0.000000 0.000000 0.029331  0.161151 0.000000 0.000000
+344  0.000000 0.000000 -0.029331  0.161151 0.000000 0.000000
+345  0.010160 0.005497 0.023447  -0.109243 0.087207 -0.277556
+346  -0.010160 -0.005497 -0.023446  -0.109243 0.087207 -0.277556
+347  0.000000 0.000000 0.059682  0.242394 0.127377 0.197262
+348  0.000000 0.000000 -0.059682  0.242394 0.127377 0.197262
+349  0.000000 0.000000 0.043714  0.404528 0.000000 0.000000
+350  0.000000 0.000000 -0.043715  0.404528 0.000000 0.000000
+351  0.000000 0.000000 0.026000  0.088803 0.000000 0.000000
+352  0.000000 0.000000 -0.026000  0.088803 0.000000 0.000000
+353  0.021290 -0.001761 0.022453  -0.090157 0.191021 -0.226552
+354  -0.021289 0.001760 -0.022453  -0.090157 0.191021 -0.226552
+355  0.000000 0.000000 0.054319  0.280043 0.188319 0.095528
+356  0.000000 0.000000 -0.054318  0.280043 0.188319 0.095528
+357  0.000000 0.000000 0.034872  0.300983 0.000000 0.000000
+358  0.000000 0.000000 -0.034873  0.300983 0.000000 0.000000
+359  0.000000 0.000000 0.017000  0.147586 0.000000 0.000000
+360  0.000000 0.000000 -0.017000  0.147586 0.000000 0.000000
+361  0.000000 -0.012132 0.010362  1.570796 0.000000 0.000000
+362  0.000645 -0.025724 0.028681  0.000000 0.000000 0.000000
+363  0.000117 0.001752 0.009256  0.000000 0.000000 0.000000
+364  0.000175 -0.003481 0.013821  0.000000 0.000000 0.000000
+365  0.000157 0.000297 0.012412  0.000000 0.000000 0.000000
+366  0.000810 -0.041642 0.041689  0.000000 0.000000 0.000000
+367  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+368  0.020588 0.045290 0.082247  -0.901350 0.426003 -2.377705
+369  0.011144 0.042702 0.085799  -2.554399 -0.977020 -0.215456
+370  0.031448 0.056738 0.090140  -0.572333 -0.342954 3.035171
+371  0.031215 0.049144 0.085164  0.037584 -0.865230 1.488528
+372  0.041967 0.044893 0.080048  0.754621 -0.292235 0.641970
+373  0.048296 0.036081 0.074647  -0.608987 -0.432288 -1.776302
+374  0.042739 0.041555 0.078465  0.439116 -0.873089 -2.261850
+375  0.031658 0.038706 0.084117  -0.886915 0.175862 0.019035
+376  -0.020942 0.045509 0.082616  0.380182 0.373128 -0.712889
+377  -0.010635 0.042967 0.086191  0.968343 0.183624 -1.452729
+378  -0.032160 0.056129 0.089503  0.425443 0.488873 -1.232784
+379  -0.032430 0.048895 0.085064  0.900541 -0.078201 0.066118
+380  -0.047493 0.035639 0.073327  0.547247 0.639315 -2.628942
+381  -0.042463 0.041085 0.078035  0.918786 -0.230124 -2.753721
+382  -0.031631 0.038784 0.084018  0.819071 0.120671 -3.116317
+383  -0.042100 0.044275 0.079303  0.245987 -0.822919 0.920130
+384  0.048913 0.061330 0.081542  -0.840364 -0.415084 -1.779953
+385  0.008203 0.062722 0.100082  -0.117035 -0.008046 -3.030355
+386  -0.061934 0.082315 0.053074  0.980940 -0.800427 -1.273380
+387  -0.049145 0.060646 0.079763  0.689271 0.772513 -2.445563
+388  -0.008745 0.062652 0.099318  0.079738 0.133218 -1.644539
+389  -0.000847 0.140482 0.054817  0.030016 -1.200379 -1.629464
+390  0.000906 0.151925 -0.008066  1.595220 0.017831 -3.066393
+391  0.017243 0.043060 0.081932  -0.000197 -0.736291 2.177295
+392  0.018138 0.040521 0.081583  -0.902447 0.128251 0.039337
+393  -0.017395 0.043196 0.082066  0.511193 0.006403 -0.573299
+394  -0.018127 0.040240 0.081647  -0.296292 0.932615 1.415738
+395  0.014973 0.049875 0.089298  -0.699184 -0.779568 2.950296
+396  -0.014846 0.050355 0.088903  0.863041 0.478852 -0.879002
+397  0.015976 0.041070 0.081842  0.178291 -0.197171 1.960284
+398  -0.015849 0.041207 0.081929  -0.035810 -0.100608 0.496748
+399  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+400  0.015797 -0.015499 0.095758  -0.126989 0.606672 -0.446157
+401  0.018964 -0.020957 0.082254  1.701714 -1.110895 -0.073202
+402  0.022722 -0.021553 0.085093  0.620446 0.247409 2.617953
+403  0.016719 -0.025553 0.092364  0.755823 -0.201262 1.953674
+404  0.001785 -0.012212 0.101619  -0.027705 -0.359355 -1.581611
+405  0.001842 -0.019783 0.096468  0.002794 -1.429675 1.402435
+406  0.001373 -0.028922 0.098381  -0.390562 -0.020006 -3.124895
+407  0.001193 -0.020325 0.095462  0.082746 1.247811 1.545544
+408  -0.012859 -0.015983 0.096083  -0.540980 0.033850 2.019974
+409  -0.017473 -0.021612 0.082734  1.656548 -0.435558 -0.063956
+410  -0.020998 -0.022148 0.085854  -0.264581 -0.363104 -0.989714
+411  -0.014618 -0.025566 0.092681  0.270232 -0.716773 -0.563696
+412  0.015859 -0.006820 0.094399  0.445038 0.473273 1.128997
+413  0.036273 -0.011710 0.083129  -0.416385 -0.577700 -2.744959
+414  0.029342 -0.038336 0.077891  -0.780275 -0.123317 -2.109598
+415  0.009246 -0.039539 0.090539  -0.190551 0.266450 0.008389
+416  0.001549 -0.006171 0.099134  -0.256314 -0.000173 -1.581430
+417  -0.013136 -0.007307 0.094397  -0.520490 -0.326310 0.646099
+418  -0.034931 -0.011372 0.082275  0.659041 0.334574 -1.741490
+419  -0.028691 -0.038493 0.077591  0.126281 0.827644 -2.463480
+420  -0.007740 -0.040268 0.090670  -0.273637 0.203456 1.538374
+421  0.003209 0.001718 0.034142  1.606599 -0.112925 0.024145
+422  0.002210 -0.033301 0.029276  1.015633 0.112300 -3.119145
+423  0.032183 -0.017020 0.037930  0.131894 1.072797 -3.026859
+424  -0.029110 -0.016578 0.038122  -1.634721 0.181165 -1.563765
+425  0.020891 -0.052814 0.081002  -0.415866 0.980560 -1.175958
+426  -0.019109 -0.053160 0.080164  -1.101952 0.221890 2.395979
+427  0.053619 -0.013588 0.059117  -0.684081 -1.069450 -2.642839
+428  0.036166 -0.049227 0.049715  -1.562302 0.000462 -2.522364
+429  -0.052833 -0.013647 0.057765  1.154119 0.310398 -1.408755
+430  -0.034818 -0.049084 0.048841  -0.380671 1.556609 -2.520731
+431  0.015790 0.015221 0.093449  0.609454 0.525645 1.072035
+432  0.002756 0.014404 0.114445  0.333146 -0.231819 3.109602
+433  -0.013455 0.015296 0.093618  -0.425321 -0.527912 0.929213
+434  0.072061 0.029245 0.003680  -1.322185 0.788829 -2.085365
+435  -0.071001 0.028607 0.004070  0.857163 -1.143419 -0.105292
+436  0.002227 -0.001685 -0.065496  2.831121 -0.111326 0.030257
+437  0.000824 -0.054899 0.002883  0.000000 0.000000 0.000000
+438  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+439  0.020588 0.045290 0.082247  0.000000 0.000000 0.000000
+440  -0.020942 0.045509 0.082616  0.000000 0.000000 0.000000
+441  0.025569 0.039836 0.083313  0.000000 0.000000 0.000000
+442  -0.025739 0.039806 0.083493  0.000000 0.000000 0.000000
+443  0.031658 0.038706 0.084116  0.000000 0.000000 0.000000
+444  -0.031631 0.038784 0.084018  0.000000 0.000000 0.000000
+445  0.039066 0.039593 0.081621  0.000000 0.000000 0.000000
+446  -0.038800 0.039401 0.081372  0.000000 0.000000 0.000000
+447  0.042739 0.041555 0.078464  0.000000 0.000000 0.000000
+448  -0.042463 0.041085 0.078035  0.000000 0.000000 0.000000
+449  0.041967 0.044893 0.080048  -0.013898 -0.004868 0.016212
+450  -0.042100 0.044275 0.079303  -0.022045 -0.048490 0.012721
+451  0.037575 0.047481 0.083530  -0.002934 0.017958 -0.000083
+452  -0.038457 0.046958 0.082981  0.001772 -0.024273 0.002091
+453  0.031215 0.049144 0.085164  -0.189097 -0.577481 0.509822
+454  -0.032430 0.048896 0.085064  -0.173690 0.569196 -0.558280
+455  0.025212 0.048151 0.083950  0.000766 0.000030 0.001823
+456  -0.025998 0.048364 0.084293  0.049731 -0.034975 -0.003791
+457  0.025212 0.048151 0.083950  0.406559 0.750653 -0.929452
+458  0.042523 0.055062 0.085051  0.220759 0.581068 -0.426085
+459  0.037575 0.047481 0.083530  -0.597547 -0.481589 2.705368
+460  0.052472 0.043008 0.070501  0.241517 0.673905 0.106363
+461  0.037274 0.036157 0.083500  0.136966 0.298339 0.319761
+462  0.039066 0.039593 0.081620  0.778948 0.509957 2.503539
+463  0.020753 0.036628 0.082811  -0.180947 0.089563 2.376842
+464  0.025569 0.039836 0.083313  -1.073619 -0.329767 -0.251959
+465  -0.025998 0.048363 0.084293  -1.056514 -0.193793 2.920194
+466  -0.042876 0.054203 0.084190  0.632699 0.050547 -1.075920
+467  -0.038457 0.046958 0.082981  0.603454 0.488752 -0.810425
+468  -0.051481 0.042331 0.068814  -0.796636 -0.269264 1.618764
+469  -0.036963 0.036033 0.082924  -0.370756 0.315995 2.845774
+470  -0.038800 0.039401 0.081372  -0.588310 -0.718685 -0.451335
+471  -0.020323 0.036573 0.082345  0.064695 -0.362812 2.284488
+472  -0.025739 0.039806 0.083493  0.598045 0.876002 2.318231
+473  0.067201 0.055459 0.042852  -0.799175 -1.104138 -2.235092
+474  0.059899 0.045861 0.061408  0.433308 1.003438 0.552148
+475  0.044342 0.088891 0.079308  -0.722960 -0.498157 -1.720760
+476  0.034886 0.064660 0.092427  0.059950 -0.478611 2.932247
+477  0.021452 0.064157 0.098114  -0.282403 0.155828 -1.633142
+478  0.010269 0.087349 0.097585  -0.214701 0.098262 -0.034545
+479  -0.000188 0.062263 0.100016  -0.087233 0.058675 3.101750
+480  -0.066324 0.054712 0.039199  1.188795 0.337618 -1.642751
+481  -0.058481 0.045296 0.058913  -1.069556 -0.217798 1.381295
+482  -0.045933 0.087778 0.076717  0.624819 0.694305 -2.545622
+483  -0.035724 0.063852 0.091277  0.535427 -0.100111 -1.390549
+484  -0.022360 0.063631 0.097039  -0.173272 0.308861 -3.070371
+485  -0.012689 0.086952 0.097081  -0.132754 0.166558 1.616063
+486  0.041925 0.105754 0.073227  0.766817 0.733771 1.506799
+487  0.059126 0.101449 0.048912  -1.104245 -0.802628 -1.531635
+488  -0.001569 0.109111 0.090655  0.078174 -0.598654 -1.583908
+489  -0.043532 0.105005 0.071011  -0.885429 -0.574515 0.644481
+490  -0.059615 0.100503 0.045729  1.264326 0.695062 -2.138506
+491  0.021018 0.039962 0.082611  0.399803 -0.080956 -2.466560
+492  -0.021069 0.039699 0.082657  0.128012 -0.500344 -2.344283
+493  0.012919 0.035134 0.085581  0.107060 -0.865351 -2.683544
+494  -0.011999 0.035143 0.085410  0.965725 -0.036554 -2.124146
+495  0.012335 -0.020224 0.091031  1.665140 -0.908610 -0.388563
+496  0.019537 -0.018294 0.091468  0.360238 0.839272 -0.523840
+497  0.018834 -0.021002 0.083434  1.546494 -0.082445 -3.106778
+498  0.015392 -0.016364 0.082913  2.675079 0.647410 -0.352563
+499  0.020840 -0.023538 0.087469  -0.082361 0.806382 0.725398
+500  0.014878 -0.020821 0.087150  1.581434 0.831658 -0.173670
+501  0.014212 -0.024055 0.081700  2.866936 -0.756954 -2.840944
+502  -0.009458 -0.019872 0.091525  1.684584 -0.586812 0.341135
+503  -0.016952 -0.018321 0.092076  -0.849244 -0.249091 2.290450
+504  -0.017103 -0.021323 0.083689  0.199144 -1.532357 -1.720163
+505  -0.012972 -0.016453 0.083323  -2.462011 -0.387160 -1.486763
+506  -0.019172 -0.023891 0.087840  -0.836092 0.034342 0.825938
+507  -0.012678 -0.020881 0.087841  -1.545328 -0.809962 -2.906660
+508  -0.011979 -0.023780 0.081549  2.408319 -0.443346 1.671773
+509  0.009271 -0.006677 0.098103  -0.408308 0.451095 -0.176492
+510  0.022315 -0.011207 0.091195  0.384335 -0.316142 2.210335
+511  0.021905 -0.020422 0.086764  -1.111434 0.405371 -2.819764
+512  0.037402 -0.023258 0.079001  -0.355767 -0.818376 -2.974627
+513  0.016521 -0.034935 0.088711  0.423297 -0.487995 1.815769
+514  0.001072 -0.036101 0.091584  -0.086459 -0.026417 3.101435
+515  -0.005921 -0.006579 0.098046  -0.523903 0.464793 1.516345
+516  -0.020336 -0.011237 0.091182  0.325502 -0.356541 -0.754086
+517  -0.019835 -0.020712 0.087601  -0.680795 0.883126 -2.544981
+518  -0.036349 -0.023129 0.078312  0.824240 0.202321 -1.494798
+519  -0.014973 -0.034951 0.088739  0.344040 0.450606 -1.791813
+520  0.009931 -0.052114 0.090425  0.526778 0.254994 0.179115
+521  0.014438 -0.060024 0.076236  -0.249964 1.351741 -1.467892
+522  0.001715 -0.062843 0.060852  -1.665675 0.019203 3.101028
+523  -0.008185 -0.052722 0.090316  -0.303397 -0.547475 1.590676
+524  -0.012092 -0.059999 0.075714  -1.472901 0.073976 2.813937
+525  0.026085 0.017967 0.087679  0.026650 0.432712 0.838524
+526  0.066162 0.029184 0.052101  1.313099 0.129835 1.555987
+527  0.062403 0.011958 0.056040  1.286294 -0.826974 1.488910
+528  0.045801 -0.007296 0.075363  -0.611266 -0.702961 -2.650656
+529  0.066594 0.015862 0.030398  -1.068908 -1.449315 -2.302516
+530  0.045289 -0.022931 0.068962  -0.428426 -0.948745 -2.958313
+531  0.049903 -0.034434 0.048605  -1.402268 0.142909 -2.139244
+532  0.037567 -0.038749 0.068485  -0.069584 -1.005379 2.676727
+533  0.028207 -0.051682 0.069696  1.291635 0.075519 0.795260
+534  -0.025196 0.018013 0.087744  -0.389476 -0.035855 0.784424
+535  -0.064655 0.028970 0.049798  -0.553792 -1.278732 0.552578
+536  -0.061555 0.011895 0.054103  1.138715 -0.786128 -1.037325
+537  -0.044623 -0.006858 0.073967  -0.751732 -0.454532 1.451169
+538  -0.065423 0.014396 0.028615  1.452689 0.095502 -1.423760
+539  -0.044262 -0.022831 0.067894  0.983144 0.236055 -1.400930
+540  -0.048703 -0.034540 0.047622  -0.650524 1.327989 3.062657
+541  -0.036796 -0.038777 0.067747  1.046925 0.053775 -1.025686
+542  -0.026433 -0.051450 0.068729  -0.234248 -1.289240 1.076900
+543  0.010188 0.030456 0.093257  -0.872530 0.762260 -0.566101
+544  0.009635 0.019160 0.104037  -1.076756 -0.720297 -1.301638
+545  0.010166 0.010183 0.110380  0.135132 -0.948279 2.898503
+546  0.008261 0.002028 0.099526  -0.699384 -0.149056 -1.483567
+547  0.002586 0.005472 0.113131  0.085239 0.683571 -1.595943
+548  -0.008767 0.030800 0.093728  -0.883894 0.603226 1.528075
+549  -0.005983 0.019440 0.104314  1.016084 0.659691 -2.569847
+550  -0.006121 0.010247 0.110929  0.838238 -0.057297 -1.467530
+551  -0.004240 0.001386 0.099418  -0.254381 0.630768 2.982871
+552  0.050000 0.117034 0.117609  0.000000 0.000000 0.000000
+553  -0.050000 0.117034 0.117609  0.000000 0.000000 0.000000
+554  0.048901 -0.084699 0.082757  0.000000 0.000000 0.000000
+555  -0.036782 -0.087353 0.081546  0.000000 0.000000 0.000000
+556  0.019759 0.056181 0.093811  -0.736440 -0.437906 -3.106109
+557  0.016944 0.046884 0.084210  -0.747399 -0.810556 3.013803
+558  0.027698 0.052283 0.084750  -1.598078 0.077296 -2.924578
+559  0.035466 0.051667 0.084367  -0.329730 -0.699512 -1.701616
+560  0.037812 0.052795 0.085960  0.382588 0.443720 -0.349073
+561  0.041196 0.049554 0.081803  -0.488624 -0.678526 -1.815277
+562  0.054770 0.053452 0.072389  -0.740823 0.776228 -1.165356
+563  0.047223 0.047984 0.077264  -0.577460 0.496734 -1.729749
+564  0.041312 0.038346 0.077227  1.941097 0.084024 -1.900980
+565  0.034990 0.026345 0.083118  -0.265110 0.135545 -0.386520
+566  0.028935 0.036644 0.084969  0.150431 0.170178 -1.777558
+567  -0.020274 0.056068 0.093116  0.524994 0.677890 -1.167403
+568  -0.017003 0.047375 0.084284  0.678110 -0.604590 0.283019
+569  -0.028570 0.052247 0.084683  -0.649904 0.104896 -0.156168
+570  -0.036470 0.051344 0.084024  -0.569032 -0.169781 0.412551
+571  -0.038395 0.052006 0.085257  -0.637056 -0.438973 2.280474
+572  -0.041653 0.049085 0.081183  0.933093 0.352486 -2.448847
+573  -0.054267 0.052934 0.070231  -1.093709 0.631551 1.968518
+574  -0.046941 0.046822 0.076323  -0.740713 0.549357 2.942601
+575  -0.040936 0.038282 0.077010  -2.841212 -1.251867 0.192506
+576  -0.034667 0.026345 0.082920  -0.131691 0.313333 1.952602
+577  -0.028787 0.036646 0.084823  -0.217877 -0.120285 -2.890998
+578  0.061443 0.083748 0.056950  0.951386 0.822600 1.199189
+579  0.059898 0.065728 0.062227  -1.025097 0.467796 -1.277984
+580  0.023880 0.089624 0.093634  0.396008 0.229850 1.515483
+581  -0.059533 0.064615 0.058694  -0.883014 0.991069 2.247457
+582  -0.026461 0.088831 0.092395  -0.271411 -0.464439 0.191299
+583  0.025174 0.109297 0.085059  0.445828 0.644314 1.557392
+584  0.072318 0.063684 0.015140  1.295511 1.158829 1.271246
+585  -0.027463 0.108595 0.083664  -0.721526 -0.420403 0.316576
+586  -0.071012 0.063332 0.011334  -1.460019 -0.400847 1.578706
+587  -0.008103 0.047528 0.092755  0.509435 -0.766206 -0.016189
+588  0.009151 0.047291 0.093116  0.868342 -0.359175 1.250401
+589  0.043469 0.050486 0.081805  -0.771210 0.204485 -2.458515
+590  0.030201 0.053412 0.087903  0.184596 -0.687136 1.434100
+591  0.022543 0.052382 0.088235  0.922955 -0.218476 0.478022
+592  0.045185 0.047013 0.077877  -0.717673 -0.192782 -2.245841
+593  0.021562 0.049556 0.083307  -0.370988 -1.039618 2.572809
+594  -0.043580 0.049432 0.080899  -0.392712 0.793814 -2.410062
+595  -0.030966 0.052952 0.087438  0.728936 -0.139265 0.038659
+596  -0.023047 0.052248 0.087991  0.371075 -0.917040 0.843411
+597  -0.045067 0.046337 0.077045  0.528427 0.709579 -2.045625
+598  -0.021985 0.049837 0.083444  1.038081 0.245406 -0.683616
+599  0.010567 -0.012954 0.099274  0.227766 0.458740 -0.289819
+600  0.008477 -0.019506 0.094441  1.472052 0.327401 -0.013517
+601  0.013768 -0.019982 0.089884  -1.438861 0.719117 -0.338138
+602  0.009401 -0.015761 0.087999  2.568578 -0.287217 -1.582049
+603  0.019026 -0.020663 0.078605  -1.906712 -0.390511 2.626786
+604  0.020889 -0.018750 0.075533  2.150399 -0.648636 -2.321458
+605  0.018482 -0.021463 0.078608  2.001163 -0.308424 -2.438730
+606  0.020626 -0.022183 0.073316  2.145597 -0.371125 -1.935541
+607  0.009234 -0.028113 0.097343  -0.360322 -0.262663 -2.977813
+608  0.007188 -0.019753 0.094469  -0.827145 0.293457 0.084807
+609  0.006543 -0.022897 0.085793  2.858705 -0.290532 -3.082760
+610  0.015786 -0.021473 0.082106  2.136977 -0.563465 -3.036088
+611  0.011200 -0.020564 0.085858  2.338284 -0.319436 3.115987
+612  0.016752 -0.020845 0.083000  1.945533 0.719068 -0.234009
+613  0.001971 -0.016530 0.090029  2.908151 0.036619 -0.068160
+614  0.001013 -0.022592 0.086641  -3.048922 0.330536 -1.556204
+615  -0.007491 -0.013042 0.099360  -0.382033 -0.181094 1.919379
+616  -0.005000 -0.019050 0.094542  1.585673 -0.366132 0.045980
+617  -0.011497 -0.019812 0.090000  -1.558313 0.961867 0.306000
+618  -0.006205 -0.015556 0.088630  2.712509 -0.351519 0.144899
+619  -0.017326 -0.021228 0.078834  1.853478 0.967052 0.974505
+620  -0.018708 -0.018848 0.075660  2.241533 -0.728843 1.356170
+621  -0.016727 -0.021672 0.078773  2.065945 -1.249642 2.323891
+622  -0.018409 -0.022313 0.073426  2.768717 -0.977277 0.980639
+623  -0.006918 -0.028235 0.097380  0.405651 0.156951 -1.714699
+624  -0.004915 -0.019354 0.094665  -0.542522 1.131822 0.930273
+625  -0.004601 -0.022682 0.085459  2.854194 -0.243611 1.549087
+626  -0.013994 -0.021422 0.082340  2.188382 -0.865060 2.328281
+627  -0.009132 -0.020194 0.085969  2.718661 -0.786843 1.927756
+628  -0.015029 -0.021382 0.083462  -1.906315 -0.833948 -2.394914
+629  0.018813 0.007726 0.090156  0.156514 -0.351661 2.180282
+630  0.023602 -0.030279 0.085329  0.652726 0.377514 0.807429
+631  -0.016641 0.007836 0.089960  0.175726 0.187395 -2.101687
+632  -0.022503 -0.030450 0.085454  -0.395511 -0.507737 0.957790
+633  0.021044 -0.058244 0.063843  -1.581406 -0.051277 -2.684422
+634  0.000932 -0.058330 0.087643  -0.958570 0.037702 3.117351
+635  0.001243 -0.062345 0.077107  1.389223 -0.001246 0.045764
+636  -0.018559 -0.058039 0.062993  1.380553 1.481590 -0.628089
+637  0.017150 0.024902 0.089006  -0.112942 -0.695569 -2.322283
+638  0.056482 0.022347 0.071713  -0.670060 0.516481 -0.819892
+639  0.070190 0.037287 0.030600  -0.893865 -1.504105 -2.288365
+640  0.060145 -0.013423 0.015672  -2.550047 1.357490 -2.823807
+641  -0.016291 0.024973 0.089156  0.738219 0.082139 -2.307725
+642  -0.055597 0.022408 0.069760  -0.811329 0.657875 2.036275
+643  -0.068407 0.036752 0.028360  1.448113 0.028200 -1.563794
+644  -0.059462 -0.015308 0.015884  -1.750666 0.143936 1.861466
+645  0.016814 0.002825 0.096712  -1.407792 0.909394 -1.984273
+646  0.001146 0.039586 0.096455  -0.197993 -0.129838 0.053221
+647  0.002074 0.025384 0.104297  -0.710832 0.144173 -0.111727
+648  0.001786 0.000067 0.102510  -0.119860 -1.140500 1.541338
+649  -0.013302 0.002906 0.096455  -1.428098 0.608590 2.235668
+650  0.047170 0.041894 0.074309  0.739329 0.156376 1.525120
+651  0.043340 0.038795 0.079228  0.657537 -0.444983 2.179364
+652  0.045266 0.028436 0.078443  -0.404815 -0.352390 -1.761449
+653  0.041987 0.034278 0.079747  0.504321 0.410090 0.712463
+654  0.031991 0.031639 0.083339  -0.041530 -0.130449 2.880368
+655  0.024397 0.027764 0.084530  0.463168 0.062705 2.477497
+656  0.017941 0.032012 0.084465  -0.413863 -0.266952 -1.082902
+657  -0.046534 0.041161 0.073344  -0.227676 -0.811474 0.270051
+658  -0.043002 0.038446 0.078690  0.553066 -0.583607 -0.909746
+659  -0.044560 0.028237 0.077583  0.405380 0.434095 -2.768523
+660  -0.041554 0.034034 0.078951  -0.485215 -0.479933 1.089663
+661  -0.031697 0.031608 0.083059  -0.224744 -0.046686 1.795464
+662  -0.023726 0.027699 0.084364  -0.133692 -0.519405 -0.939476
+663  -0.017148 0.031766 0.083893  0.358072 0.672098 2.796613
+664  0.048360 0.074212 0.078597  0.698724 -0.643434 2.344281
+665  0.028219 0.076943 0.094594  0.292726 -0.455970 2.942665
+666  0.008366 0.074183 0.099853  -0.029134 -0.108743 -1.564634
+667  -0.000987 0.086159 0.098419  -0.155522 0.011704 0.040266
+668  -0.000543 0.073603 0.099908  0.076173 0.017376 -3.111249
+669  -0.049123 0.073265 0.076022  0.790668 -0.529022 -1.197143
+670  -0.029826 0.075967 0.093272  0.527215 -0.289599 -1.460445
+671  -0.009807 0.073800 0.099374  0.117432 0.066069 -3.064584
+672  0.000582 0.049572 0.096881  -0.071288 0.271539 -1.576075
+673  0.022677 0.000101 0.089557  -0.054280 -0.296239 -2.534235
+674  0.040895 0.001678 0.082603  -0.484849 -0.401341 -2.495870
+675  0.032663 -0.003698 0.086662  -0.029415 -0.410941 3.028999
+676  0.027154 -0.016961 0.087962  -0.347931 -0.348307 -2.719749
+677  0.029121 -0.023399 0.084768  -0.401209 -0.308694 3.092589
+678  -0.020913 0.000115 0.089365  -0.022232 0.347412 2.525280
+679  -0.039484 0.001828 0.081657  -0.499842 0.400809 2.459206
+680  -0.031354 -0.003469 0.086129  0.477853 0.062557 -1.443104
+681  -0.025687 -0.016665 0.087886  0.423385 0.301569 -1.879754
+682  -0.027805 -0.023379 0.084887  0.435728 0.335150 -1.402866
+683  0.016918 -0.045659 0.087196  0.611846 0.158328 1.355007
+684  0.000870 -0.049353 0.092879  0.044900 -0.273030 1.578391
+685  -0.015580 -0.046342 0.086921  0.726151 -0.200246 -1.240010
+686  0.043465 0.020624 0.081561  0.272866 0.305195 1.073411
+687  0.052884 0.004545 0.071735  -0.824786 0.564912 -1.420868
+688  0.034102 0.010564 0.086597  0.291746 -0.148921 2.321366
+689  0.061454 -0.004312 0.041032  1.363383 -0.273503 1.434026
+690  0.056369 -0.026332 0.033951  -1.775218 -1.471181 -1.864777
+691  0.047701 -0.038890 0.030067  -3.099825 -1.554937 -0.795050
+692  -0.042968 0.020670 0.080713  -0.328650 -0.320260 0.606657
+693  -0.052016 0.004512 0.070194  -0.888589 -0.567751 1.494455
+694  -0.033188 0.010643 0.086101  -0.322404 -0.269585 0.874767
+695  -0.060700 -0.005324 0.039506  -1.335698 -0.251695 1.689413
+696  -0.055559 -0.026757 0.033356  1.556064 0.088480 -1.062034
+697  -0.047066 -0.038910 0.029754  1.537310 0.006808 -0.785751
+698  0.015355 0.007997 0.101933  -0.782508 0.791303 -0.726608
+699  -0.012029 0.008210 0.102002  -0.997575 0.503500 1.684636
+700  0.000000 0.000000 0.412969  -0.105584 0.000000 0.000000
+701  0.000000 0.000000 0.403792  0.098284 0.042029 0.004473
+702  0.000000 0.000000 0.130050  0.000000 0.000000 0.000000
+703  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+704  0.000000 0.000000 0.266503  0.000000 0.000000 0.000000
+705  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+706  0.000000 0.000000 0.395716  0.000000 0.000000 0.000000
+707  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+708  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+709  0.000000 -0.050316 0.000000  0.049108 0.021070 0.001720
+710  0.000000 0.038401 0.000000  0.049108 0.021070 0.001720
+711  0.000000 0.000000 0.399754  0.049108 0.021070 0.001720
+712  0.000000 0.055063 0.041902  0.000000 0.000000 0.000000
+713  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+714  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+715  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+716  0.000000 0.000000 0.309727  0.000000 0.000000 0.000000
+717  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+718  0.000000 0.067381 0.000000  0.000000 0.000000 0.000000
+719  0.000000 -0.091534 0.000000  0.000000 0.000000 0.000000
+720  0.000000 0.000000 0.408839  -0.052792 0.000000 0.000000
+721  0.000000 -0.050000 0.000000  0.000000 0.000000 0.000000
+722  0.000000 0.070000 0.000000  0.000000 0.000000 0.000000
+723  0.000000 0.000000 -0.412969  -0.105584 0.000000 0.000000
+724  0.000000 0.000000 -0.403792  0.098284 0.042029 0.004473
+725  0.000000 0.000000 -0.133251  0.000000 0.000000 0.000000
+726  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+727  0.000000 0.000000 -0.266503  0.000000 0.000000 0.000000
+728  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+729  0.000000 0.000000 -0.395716  0.000000 0.000000 0.000000
+730  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+731  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+732  0.000000 0.050316 0.000000  0.049108 0.021070 0.001720
+733  0.000000 -0.038401 0.000000  0.049108 0.021070 0.001720
+734  0.000000 0.000000 -0.399754  0.049108 0.021070 0.001720
+735  0.000000 -0.055063 -0.041902  0.000000 0.000000 0.000000
+736  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+737  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+738  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+739  0.000000 0.000000 -0.309727  0.000000 0.000000 0.000000
+740  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+741  0.000000 0.091534 0.000000  0.000000 0.000000 0.000000
+742  0.000000 -0.067381 0.000000  0.000000 0.000000 0.000000
+743  0.000000 0.000000 -0.408839  -0.052792 0.000000 0.000000
+744  0.000000 0.050000 0.000000  0.000000 0.000000 0.000000
+745  0.000000 -0.070000 0.000000  0.000000 0.000000 0.000000
+746  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+747  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+748  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+749  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+750  0.078500 -0.136508 -0.126021  1.570796 0.000000 0.000000
+751  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+752  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+753  0.189516 -0.063235 -0.126021  1.570796 0.000000 0.000000
+754  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+755  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+756  0.189516 0.040389 -0.126021  1.570796 0.000000 0.000000
+757  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+758  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+759  0.078500 0.113662 -0.126021  1.570796 0.000000 0.000000
+760  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+761  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+762  -0.078500 -0.136508 -0.126021  1.570796 0.000000 0.000000
+763  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+764  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+765  -0.189516 -0.063235 -0.126021  1.570796 0.000000 0.000000
+766  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+767  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+768  -0.189516 0.040389 -0.126021  1.570796 0.000000 0.000000
+769  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+770  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+771  -0.078500 0.113662 -0.126021  1.570796 0.000000 0.000000
+772  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+773  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+774  0.000000 -0.013858 0.057550  0.000000 0.000000 0.000000
+775  0.000000 -0.040816 -0.058856  0.000000 0.000000 0.000000
+776  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+777  0.000230 -0.005510 0.057367  -1.580327 1.252932 -1.564693
+778  0.003733 -0.032484 0.038344  1.883001 0.184451 0.111180
+779  0.005768 -0.059114 0.028828  1.506550 0.214468 -1.545028
+780  -0.003233 0.015612 -0.045325  -1.646387 0.105128 -1.629149
+781  -0.005294 -0.027204 -0.059075  -1.665436 0.513585 -1.640652
+782  0.003339 -0.013872 0.046426  2.197107 0.041957 0.088706
+783  -0.022339 -0.001653 0.047820  -0.404613 -0.141167 -0.570881
+784  -0.019147 -0.052336 0.028278  -1.674493 0.135077 2.869045
+785  -0.027036 -0.020631 0.028604  -1.904131 -0.313468 1.086098
+786  -0.042289 -0.027067 0.019746  2.193241 -0.559746 -0.830910
+787  -0.052747 0.028685 0.016999  0.037126 0.046602 1.826871
+788  -0.047622 -0.001493 0.014391  2.661953 -0.433589 -1.277976
+789  -0.051509 -0.028059 -0.002351  -0.137130 0.610373 -1.758031
+790  -0.041340 0.033690 -0.020847  1.962274 -0.916386 2.813425
+791  -0.036543 -0.009374 -0.039242  -0.849226 -0.452883 1.443676
+792  -0.036022 0.002604 0.032006  -0.413031 -0.153415 -0.869097
+793  0.024484 -0.001196 0.048352  0.311191 -0.151951 -2.552008
+794  0.030381 -0.054323 0.025156  -1.954652 0.262557 -1.282694
+795  0.029031 -0.020525 0.027757  1.858338 -0.264606 2.085556
+796  0.039576 -0.031675 0.022034  -0.991871 -0.410284 2.037441
+797  0.053122 0.028799 0.015879  -0.065460 0.081402 1.316452
+798  0.048008 -0.002683 0.014142  -2.640177 -0.454730 -1.873305
+799  0.051026 -0.028203 -0.001310  0.136596 0.647211 -1.414086
+800  0.043314 0.033419 -0.018730  -1.882468 -0.908269 0.213475
+801  0.043632 -0.006063 -0.026888  2.706247 0.479464 -1.428840
+802  0.041885 0.008574 0.028277  -2.779650 -0.115702 -2.187445
+803  0.000000 0.000000 0.000000  0.236309 0.000000 0.000000
+804  0.000000 -0.013858 0.057550  0.000000 0.000000 0.000000
+805  0.000000 0.000000 0.274778  0.000000 -0.547359 0.000000
+806  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+807  0.000000 0.000000 0.063035  0.000000 0.000000 0.000000
+808  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+809  0.000000 0.000000 0.126070  0.000000 0.000000 0.000000
+810  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+811  0.000000 0.000000 0.189106  0.000000 0.000000 0.000000
+812  0.000000 0.019957 0.071051  0.020722 -0.078294 0.017596
+813  0.000000 -0.026031 0.070405  0.020722 -0.078294 0.017596
+814  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+815  0.000000 0.000000 0.247098  0.000000 0.000000 0.000000
+816  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+817  0.000000 0.000000 0.249619  0.024112 -0.007519 0.004307
+818  0.000000 0.000000 0.252143  0.048194 -0.015139 0.008431
+819  -0.013870 -0.000056 0.025840  -0.102594 -0.106147 0.111030
+820  0.000000 0.000000 0.060191  0.229625 0.098616 -0.093314
+821  0.000000 0.000000 0.043035  0.378914 0.000000 0.000000
+822  0.000000 0.000000 0.019804  0.241278 0.000000 0.000000
+823  0.000000 0.004103 0.000000  0.000000 0.000000 0.000000
+824  0.000000 -0.006349 0.000000  0.000000 0.000000 0.000000
+825  -0.001415 -0.007500 0.012000  0.000000 0.000000 0.000000
+826  0.000000 0.000000 0.043035  0.378914 0.000000 0.000000
+827  0.000000 0.005413 0.000000  0.000000 0.000000 0.000000
+828  0.000000 -0.009781 0.000000  0.000000 0.000000 0.000000
+829  0.000000 -0.010000 0.028000  0.000000 0.000000 0.000000
+830  0.000000 0.000000 0.060191  0.115829 0.046631 -0.049439
+831  0.000000 -0.014703 0.000000  0.000000 0.000000 0.000000
+832  0.000000 0.007319 0.000000  0.000000 0.000000 0.000000
+833  0.000000 -0.012283 0.032995  0.000000 0.000000 0.000000
+834  0.000000 0.008135 0.035023  0.000000 0.000000 0.000000
+835  -0.003044 0.001978 0.023589  -0.133266 0.051595 0.003051
+836  0.000000 0.000000 0.062720  0.254433 0.080699 -0.048427
+837  0.000000 0.000000 0.047331  0.421715 0.000000 0.000000
+838  0.000000 0.000000 0.029331  0.161151 0.000000 0.000000
+839  0.000000 0.005309 0.000000  0.000000 0.000000 0.000000
+840  0.000000 -0.005668 0.000000  0.000000 0.000000 0.000000
+841  0.000000 -0.006500 0.017500  0.000000 0.000000 0.000000
+842  0.000000 0.000000 0.047331  0.421715 0.000000 0.000000
+843  0.000000 0.007152 0.000000  0.000000 0.000000 0.000000
+844  0.000000 -0.009862 0.000000  0.000000 0.000000 0.000000
+845  0.000000 -0.008800 0.031000  0.000000 0.000000 0.000000
+846  0.000000 0.000000 0.062721  0.127604 0.038809 -0.026766
+847  0.000000 0.009521 0.000000  0.000000 0.000000 0.000000
+848  0.000000 -0.014281 0.000000  0.000000 0.000000 0.000000
+849  0.000000 -0.012767 0.031727  0.000000 0.000000 0.000000
+850  0.000000 0.010254 0.034415  0.000000 0.000000 0.000000
+851  0.010160 0.005497 0.023447  -0.109243 0.087207 -0.277556
+852  0.000000 0.000000 0.059682  0.242394 0.127377 0.197262
+853  0.000000 0.000000 0.043714  0.404528 0.000000 0.000000
+854  0.000000 0.000000 0.026000  0.088803 0.000000 0.000000
+855  0.000000 0.004280 0.000000  0.000000 0.000000 0.000000
+856  0.000000 -0.006328 0.000000  0.000000 0.000000 0.000000
+857  0.000000 -0.006500 0.016500  0.000000 0.000000 0.000000
+858  0.000000 0.000000 0.043714  0.418264 0.000000 0.000000
+859  0.000000 0.006164 0.000000  0.000000 0.000000 0.000000
+860  0.000000 -0.008575 0.000000  0.000000 0.000000 0.000000
+861  0.000000 -0.008000 0.030000  0.000000 0.000000 0.000000
+862  0.000000 0.000000 0.059682  0.117788 0.069657 0.094547
+863  0.000000 0.007789 0.000000  0.000000 0.000000 0.000000
+864  0.000000 -0.015500 0.000000  0.000000 0.000000 0.000000
+865  0.000000 -0.012369 0.028972  0.000000 0.000000 0.000000
+866  0.000000 0.008610 0.029409  0.000000 0.000000 0.000000
+867  0.021290 -0.001761 0.022453  -0.090157 0.191021 -0.226552
+868  0.000000 0.000000 0.054319  0.280043 0.188319 0.095528
+869  0.000000 0.000000 0.034872  0.300983 0.000000 0.000000
+870  0.000000 0.000000 0.017000  0.147586 0.000000 0.000000
+871  0.000000 -0.005575 0.000000  0.000000 0.000000 0.000000
+872  0.000000 0.005750 0.000000  0.000000 0.000000 0.000000
+873  0.001134 -0.006966 0.006069  0.000000 0.000000 0.000000
+874  0.000000 0.000000 0.034872  0.300983 0.000000 0.000000
+875  0.000000 -0.007706 0.000000  0.000000 0.000000 0.000000
+876  0.000000 0.004710 0.000000  0.000000 0.000000 0.000000
+877  0.000000 -0.006950 0.022387  0.000000 0.000000 0.000000
+878  0.000000 0.000000 0.054319  0.137125 0.097484 0.040909
+879  0.000000 -0.010750 0.000000  0.000000 0.000000 0.000000
+880  0.000000 0.008970 0.000000  0.000000 0.000000 0.000000
+881  0.000000 -0.008992 0.033577  0.000000 0.000000 0.000000
+882  -0.021776 -0.012079 0.023871  -0.515918 -0.377443 1.532202
+883  0.000000 0.000000 0.036700  0.240840 0.000000 0.000000
+884  0.000000 0.000000 0.026438  0.122832 0.000000 0.000000
+885  0.000000 0.008203 0.000000  0.000000 0.000000 0.000000
+886  0.000000 -0.008025 0.000000  0.000000 0.000000 0.000000
+887  0.000000 -0.008500 0.014500  0.000000 0.000000 0.000000
+888  0.000000 0.000000 0.036700  0.120420 0.000000 0.000000
+889  0.000000 -0.010865 0.000000  0.000000 0.000000 0.000000
+890  0.000000 0.008184 0.000000  0.000000 0.000000 0.000000
+891  0.000000 -0.015000 0.017500  0.000000 0.000000 0.000000
+892  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+893  0.000000 0.012095 0.000000  0.000000 0.000000 0.000000
+894  0.000000 -0.018125 0.000000  0.000000 0.000000 0.000000
+895  0.000000 0.023261 0.026581  -0.027426 -0.062641 0.012191
+896  -0.040000 0.000000 0.005062  0.021378 0.185443 0.016952
+897  0.044117 -0.000434 0.045646  0.021378 0.185443 0.016952
+898  0.000000 0.025000 0.000000  0.021378 0.185443 0.016952
+899  0.000000 -0.045000 0.000000  0.021378 0.185443 0.016952
+900  0.000000 0.000000 0.068610  0.000000 0.000000 0.000000
+901  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+902  0.000000 0.000000 0.149709  0.000000 0.000000 0.000000
+903  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+904  0.037000 0.009529 -0.037188  0.021769 -0.082065 -0.042047
+905  0.000000 0.000000 0.224564  0.000000 0.000000 0.000000
+906  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+907  -0.040000 0.000000 -0.031000  0.021952 -0.082017 -0.044273
+908  0.029226 0.000000 0.029421  0.021952 -0.082017 -0.044273
+909  -0.000238 -0.000465 0.271694  0.000000 -0.273680 0.000000
+910  0.033404 0.000752 0.244033  0.022103 -0.081976 -0.046121
+911  0.020718 -0.005006 0.129051  0.500883 0.101187 0.031423
+912  0.000000 0.000000 -0.274778  0.000000 -0.547359 0.000000
+913  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+914  0.000000 0.000000 -0.063036  0.000000 0.000000 0.000000
+915  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+916  0.000000 0.000000 -0.126071  0.000000 0.000000 0.000000
+917  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+918  0.000000 0.000000 -0.189107  0.000000 0.000000 0.000000
+919  0.000000 -0.019957 -0.071051  0.020722 -0.078294 0.017596
+920  0.000000 0.026031 -0.070405  0.020722 -0.078294 0.017596
+921  0.000000 0.000000 0.000000  0.017453 0.000000 0.000000
+922  0.000000 0.000000 -0.247100  0.000000 0.000000 0.000000
+923  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+924  0.000000 0.000000 -0.249621  0.024112 -0.007519 0.004307
+925  0.000000 0.000000 -0.252143  0.048194 -0.015139 0.008431
+926  0.013871 0.000056 -0.025840  -0.102594 -0.106147 0.111030
+927  0.000000 0.000000 -0.060191  0.229625 0.098616 -0.093314
+928  0.000000 0.000000 -0.043035  0.378914 0.000000 0.000000
+929  0.000000 0.000000 -0.019805  0.241278 0.000000 0.000000
+930  0.000001 -0.004103 0.000003  0.000000 0.000000 0.000000
+931  0.000001 0.006349 0.000000  0.000000 0.000000 0.000000
+932  0.000000 0.007500 -0.012000  0.000000 0.000000 0.000000
+933  0.000000 0.000000 -0.043035  0.378914 0.000000 0.000000
+934  0.000000 -0.005413 0.000000  0.000000 0.000000 0.000000
+935  0.000001 0.009781 0.000000  0.000000 0.000000 0.000000
+936  0.000000 0.010000 -0.028000  0.000000 0.000000 0.000000
+937  0.000000 0.000000 -0.060191  0.115829 0.046631 -0.049439
+938  -0.000004 0.014703 0.000000  0.000000 0.000000 0.000000
+939  -0.000004 -0.007319 0.000000  0.000000 0.000000 0.000000
+940  0.000000 0.012283 -0.032995  0.000000 0.000000 0.000000
+941  0.000000 -0.008135 -0.035023  0.000000 0.000000 0.000000
+942  0.003045 -0.001978 -0.023589  -0.133266 0.051595 0.003051
+943  0.000000 0.000000 -0.062720  0.254433 0.080699 -0.048427
+944  0.000000 0.000000 -0.047331  0.421715 0.000000 0.000000
+945  0.000000 0.000000 -0.029331  0.161151 0.000000 0.000000
+946  0.000000 -0.005309 0.000000  0.000000 0.000000 0.000000
+947  0.000000 0.005668 0.000000  0.000000 0.000000 0.000000
+948  0.000000 0.006500 -0.017500  0.000000 0.000000 0.000000
+949  0.000000 0.000000 -0.047331  0.421715 0.000000 0.000000
+950  0.000000 -0.007152 0.000000  0.000000 0.000000 0.000000
+951  0.000000 0.009862 0.000000  0.000000 0.000000 0.000000
+952  0.000000 0.008800 -0.031000  0.000000 0.000000 0.000000
+953  0.000000 0.000000 -0.062720  0.127604 0.038809 -0.026766
+954  0.000000 -0.009521 0.000000  0.000000 0.000000 0.000000
+955  0.000000 0.014281 0.000000  0.000000 0.000000 0.000000
+956  0.000000 0.012767 -0.031727  0.000000 0.000000 0.000000
+957  0.000000 -0.010254 -0.034415  0.000000 0.000000 0.000000
+958  -0.010160 -0.005497 -0.023446  -0.109243 0.087207 -0.277556
+959  0.000000 0.000000 -0.059682  0.242394 0.127377 0.197262
+960  0.000000 0.000000 -0.043715  0.404528 0.000000 0.000000
+961  0.000000 0.000000 -0.026000  0.088803 0.000000 0.000000
+962  0.000001 -0.004280 0.000002  0.000000 0.000000 0.000000
+963  0.000001 0.006328 0.000000  0.000000 0.000000 0.000000
+964  0.000000 0.006500 -0.016500  0.000000 0.000000 0.000000
+965  0.000000 0.000000 -0.043714  0.418264 0.000000 0.000000
+966  0.000001 -0.006164 0.000000  0.000000 0.000000 0.000000
+967  0.000001 0.008575 0.000000  0.000000 0.000000 0.000000
+968  0.000000 0.008000 -0.030000  0.000000 0.000000 0.000000
+969  0.000000 0.000000 -0.059682  0.117788 0.069657 0.094547
+970  0.000001 -0.007789 0.000000  0.000000 0.000000 0.000000
+971  0.000001 0.015500 0.000000  0.000000 0.000000 0.000000
+972  0.000000 0.012369 -0.028972  0.000000 0.000000 0.000000
+973  0.000000 -0.008610 -0.029409  0.000000 0.000000 0.000000
+974  -0.021289 0.001760 -0.022453  -0.090157 0.191021 -0.226552
+975  0.000000 0.000000 -0.054318  0.280043 0.188319 0.095528
+976  0.000000 0.000000 -0.034873  0.300983 0.000000 0.000000
+977  0.000000 0.000000 -0.017000  0.147586 0.000000 0.000000
+978  0.000000 0.005575 0.000000  0.000000 0.000000 0.000000
+979  0.000000 -0.005750 0.000001  0.000000 0.000000 0.000000
+980  0.000000 0.006966 -0.006069  0.000000 0.000000 0.000000
+981  0.000000 0.000000 -0.034873  0.300983 0.000000 0.000000
+982  0.000000 0.007706 0.000000  0.000000 0.000000 0.000000
+983  0.000000 -0.004710 0.000000  0.000000 0.000000 0.000000
+984  0.000000 0.006950 -0.022388  0.000000 0.000000 0.000000
+985  0.000000 0.000000 -0.054319  0.137125 0.097484 0.040909
+986  0.000011 0.010750 0.000000  0.000000 0.000000 0.000000
+987  0.000011 -0.008970 0.000000  0.000000 0.000000 0.000000
+988  0.000000 0.008992 -0.033577  0.000000 0.000000 0.000000
+989  0.021776 0.012079 -0.023871  -0.515918 -0.377443 1.532202
+990  0.000000 0.000000 -0.036701  0.240840 0.000000 0.000000
+991  0.000000 0.000000 -0.027424  0.122832 0.000000 0.000000
+992  -0.000001 -0.008203 0.000980  0.000000 0.000000 0.000000
+993  0.000000 0.008025 0.000000  0.000000 0.000000 0.000000
+994  0.000000 0.008500 -0.014500  0.000000 0.000000 0.000000
+995  0.000000 0.000000 -0.036701  0.120420 0.000000 0.000000
+996  0.000000 0.010865 0.000000  0.000000 0.000000 0.000000
+997  0.000000 -0.008184 0.000000  0.000000 0.000000 0.000000
+998  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+999  0.000000 0.018125 0.000000  0.000000 0.000000 0.000000
+1000  0.000000 -0.012095 0.000000  0.000000 0.000000 0.000000
+1001  0.000000 0.015000 -0.017500  0.000000 0.000000 0.000000
+1002  0.000000 -0.023261 -0.026581  -0.027426 -0.062641 0.012191
+1003  0.040000 0.000000 -0.005062  0.021378 0.185443 0.016952
+1004  -0.044117 0.000434 -0.045646  0.021378 0.185443 0.016952
+1005  0.000000 -0.025000 0.000000  0.021378 0.185443 0.016952
+1006  0.000000 0.045000 0.000000  0.021378 0.185443 0.016952
+1007  0.000000 0.000000 -0.068695  0.000000 0.000000 0.000000
+1008  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1009  0.000000 0.000000 -0.149709  0.000000 0.000000 0.000000
+1010  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1011  -0.037000 -0.009531 0.037191  0.021769 -0.082065 -0.042047
+1012  0.000000 0.000000 -0.224564  0.000000 0.000000 0.000000
+1013  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1014  0.040000 0.000000 0.031000  0.021952 -0.082016 -0.044273
+1015  -0.029226 0.000000 -0.029421  0.021952 -0.082016 -0.044273
+1016  0.000000 0.000000 -0.272030  0.000000 -0.273680 0.000000
+1017  -0.033404 -0.000752 -0.244033  0.022103 -0.081976 -0.046121
+1018  -0.020718 0.005006 -0.129051  0.500883 0.101187 0.031423
+1019  -0.132140 0.062999 -0.004984  3.117492 0.000000 0.000000
+1020  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1021  -0.145617 0.053028 0.093823  3.117492 0.000000 0.000000
+1022  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1023  -0.156662 0.028020 0.060436  3.117492 0.000000 0.000000
+1024  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1025  -0.155201 -0.003362 0.030207  3.117492 0.000000 0.000000
+1026  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1027  -0.147152 0.185873 0.076213  3.117492 0.000000 0.000000
+1028  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1029  -0.154193 0.172786 0.047209  3.117492 0.000000 0.000000
+1030  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1031  -0.162121 0.155251 0.022431  3.117492 0.000000 0.000000
+1032  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1033  -0.134862 0.132902 -0.001792  3.117492 0.000000 0.000000
+1034  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1035  -0.005307 -0.001058 -0.043872  3.117492 0.000000 0.000000
+1036  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1037  -0.021585 -0.001454 -0.053988  3.117492 0.000000 0.000000
+1038  0.000000 0.000000 0.000000  0.000000 0.000000 0.000000
+1039  0.161341 0.022736 0.048240  1.570796 0.000000 0.000000
+1040  -0.016250 0.446789 -0.040078  1.666103 -1.027616 -1.530017
+1041  0.000000 0.000000 0.000000  1.547160 1.541134 0.000129
+1042  -0.015587 0.440585 -0.029385  1.662348 -1.040554 -1.526303
+1043  0.000000 0.000000 0.000000  1.557488 1.539483 0.000033
+1044  -0.014895 0.434434 -0.018890  1.659655 -1.035926 -1.522345
+1045  0.000000 0.000002 0.000015  1.559227 1.538329 -0.000117
+1046  -0.014159 0.428191 -0.008461  1.653419 -1.014604 -1.513395
+1047  -0.000001 0.000006 0.000046  1.545788 1.535995 -0.000757
+1048  -0.013393 0.422007 0.001607  1.648763 -0.996919 -1.506016
+1049  -0.000003 0.000013 0.000096  1.541019 1.534394 -0.001212
+1050  -0.012562 0.415745 0.011417  1.648795 -0.996939 -1.504293
+1051  -0.000006 0.000022 0.000161  1.562483 1.535327 -0.002018
+1052  -0.011674 0.409367 0.020707  1.648757 -0.962779 -1.498561
+1053  -0.000010 0.000033 0.000239  1.581371 1.533000 -0.002460
+1054  -0.010708 0.401892 0.030207  1.657836 -0.897697 -1.501834
+1055  -0.000015 0.000048 0.000339  1.585014 1.533707 -0.003037
+1056  -0.009753 0.393495 0.039561  1.669046 -0.833306 -1.509083
+1057  -0.000019 0.000067 0.000462  1.586536 1.536043 -0.003860
+1058  -0.008845 0.384126 0.048633  1.679661 -0.764076 -1.516870
+1059  -0.000024 0.000090 0.000607  1.580657 1.539856 -0.004999
+1060  -0.007328 0.365317 0.064247  1.689989 -0.688355 -1.525279
+1061  0.000000 0.000000 0.000000  1.723853 1.543691 -0.005972
+1062  0.000000 0.000000 0.000000  1.723853 1.543691 -0.005972
+1063  -0.003360 0.321119 0.086606  1.694042 -0.463664 -1.510474
+1064  0.000000 0.000000 0.000000  1.710678 1.544480 -0.005221
+1065  -0.001206 0.291916 0.095646  1.699153 -0.297407 -1.514018
+1066  0.000000 0.000000 0.000000  1.755397 1.554552 -0.005751
+1067  0.000965 0.256265 0.097946  1.705962 -0.063290 -1.517325
+1068  0.000000 0.000000 0.000000  -0.708348 1.562613 -2.432775
+1069  0.003164 0.212763 0.092604  1.711102 0.122048 -1.520472
+1070  0.000000 0.000000 0.000000  -1.041432 1.540743 -2.677860
+1071  0.006523 0.162412 0.081712  1.712906 0.211064 -1.493320
+1072  0.000000 0.000000 0.000000  -0.645223 1.555375 -2.225100
+1073  0.009823 0.098866 0.064832  1.711254 0.256446 -1.497550
+1074  0.000000 0.000000 0.000000  -1.031701 1.548343 -2.576041
+time 1
+0  0.000000 0.000000 0.000000  0.000000 0.000484 0.000000
+9  0.030930 -0.072327 0.044983  1.570796 0.000000 0.000000
+10  -0.030579 -0.072327 0.045074  1.570796 0.000000 0.000000
+361  0.000000 -0.012131 0.010361  1.570796 0.000000 0.000000
+362  0.000645 -0.025726 0.028687  0.000000 0.000000 0.000000
+363  0.000117 0.001753 0.009254  0.000000 0.000000 0.000000
+364  0.000175 -0.003481 0.013824  0.000000 0.000000 0.000000
+365  0.000157 0.000297 0.012413  0.000000 0.000000 0.000000
+366  0.000810 -0.041656 0.041687  0.000000 0.000000 0.000000
+367  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+368  0.020584 0.045288 0.082275  -0.901417 0.426047 -2.377659
+369  0.011147 0.042694 0.085815  -2.554377 -0.977072 -0.215476
+370  0.031433 0.056732 0.090149  -0.572359 -0.342971 3.035200
+371  0.031219 0.049133 0.085144  0.037472 -0.865323 1.488721
+372  0.041962 0.044891 0.080078  0.754615 -0.292290 0.641989
+373  0.048309 0.036072 0.074646  -0.609016 -0.432264 -1.776237
+374  0.042725 0.041565 0.078491  0.439088 -0.873126 -2.261785
+375  0.031647 0.038696 0.084106  -0.886971 0.175886 0.018983
+376  -0.020935 0.045502 0.082642  0.380194 0.373175 -0.712951
+377  -0.010635 0.042969 0.086182  0.968375 0.183712 -1.452832
+378  -0.032166 0.056122 0.089478  0.425401 0.488956 -1.232927
+379  -0.032440 0.048889 0.085083  0.900547 -0.078209 0.066123
+380  -0.047485 0.035645 0.073303  0.547328 0.639300 -2.628902
+381  -0.042450 0.041077 0.078064  0.918833 -0.230148 -2.753747
+382  -0.031616 0.038788 0.084045  0.819090 0.120677 -3.116299
+383  -0.042114 0.044281 0.079285  0.245925 -0.822987 0.920266
+384  0.048920 0.061340 0.081543  -0.840401 -0.415093 -1.779898
+385  0.008202 0.062744 0.100098  -0.117056 -0.008026 -3.030383
+386  -0.061920 0.082336 0.053070  0.981040 -0.800429 -1.273473
+387  -0.049133 0.060638 0.079773  0.689324 0.772516 -2.445512
+388  -0.008743 0.062622 0.099304  0.079705 0.133232 -1.644474
+389  -0.000847 0.140503 0.054810  0.029805 -1.200430 -1.629111
+390  0.000906 0.151978 -0.008064  1.595121 0.017806 -3.066365
+391  0.017242 0.043060 0.081909  -0.000128 -0.736291 2.177166
+392  0.018143 0.040527 0.081604  -0.902482 0.128304 0.039355
+393  -0.017395 0.043182 0.082092  0.511220 0.006442 -0.573295
+394  -0.018127 0.040253 0.081665  -0.296234 0.932627 1.415870
+395  0.014977 0.049866 0.089294  -0.699188 -0.779595 2.950270
+396  -0.014847 0.050354 0.088928  0.863057 0.478886 -0.879024
+397  0.015976 0.041077 0.081848  0.178308 -0.197181 1.960248
+398  -0.015854 0.041199 0.081909  -0.035795 -0.100619 0.496812
+399  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+400  0.015793 -0.015495 0.095764  -0.126978 0.606672 -0.446187
+401  0.018967 -0.020950 0.082275  1.701570 -1.110944 -0.073109
+402  0.022720 -0.021545 0.085083  0.620503 0.247463 2.617886
+403  0.016724 -0.025558 0.092346  0.755910 -0.201195 1.953544
+404  0.001785 -0.012215 0.101624  -0.027750 -0.359339 -1.581426
+405  0.001842 -0.019791 0.096497  0.002170 -1.429793 1.403133
+406  0.001373 -0.028915 0.098389  -0.390607 -0.020012 -3.124874
+407  0.001193 -0.020325 0.095459  0.082878 1.247831 1.545731
+408  -0.012856 -0.015976 0.096069  -0.540999 0.033838 2.019919
+409  -0.017471 -0.021606 0.082764  1.656525 -0.435546 -0.063973
+410  -0.020996 -0.022156 0.085876  -0.264580 -0.363139 -0.989782
+411  -0.014618 -0.025574 0.092651  0.270215 -0.716782 -0.563684
+412  0.015854 -0.006821 0.094421  0.445076 0.473238 1.129100
+413  0.036285 -0.011711 0.083130  -0.416370 -0.577722 -2.744939
+414  0.029343 -0.038330 0.077881  -0.780337 -0.123256 -2.109533
+415  0.009247 -0.039551 0.090515  -0.190551 0.266503 0.008414
+416  0.001549 -0.006172 0.099121  -0.256331 -0.000118 -1.581293
+417  -0.013138 -0.007309 0.094421  -0.520493 -0.326302 0.646108
+418  -0.034943 -0.011375 0.082275  0.659065 0.334560 -1.741349
+419  -0.028687 -0.038483 0.077576  0.126315 0.827673 -2.463464
+420  -0.007740 -0.040283 0.090698  -0.273620 0.203469 1.538533
+421  0.003210 0.001718 0.034149  1.606529 -0.112951 0.024151
+422  0.002211 -0.033295 0.029282  1.015713 0.112292 -3.119108
+423  0.032196 -0.017014 0.037933  0.131891 1.072815 -3.026896
+424  -0.029114 -0.016571 0.038116  -1.634652 0.181095 -1.563704
+425  0.020889 -0.052826 0.080994  -0.415945 0.980597 -1.176097
+426  -0.019104 -0.053162 0.080139  -1.101984 0.221845 2.395906
+427  0.053619 -0.013588 0.059113  -0.684207 -1.069476 -2.642768
+428  0.036163 -0.049225 0.049713  -1.562445 0.000542 -2.522335
+429  -0.052826 -0.013649 0.057770  1.154173 0.310330 -1.408645
+430  -0.034821 -0.049072 0.048828  -0.379236 1.556705 -2.519192
+431  0.015793 0.015221 0.093445  0.609550 0.525672 1.072161
+432  0.002756 0.014404 0.114441  0.333151 -0.231842 3.109579
+433  -0.013458 0.015297 0.093628  -0.425372 -0.527929 0.929290
+434  0.072083 0.029251 0.003679  -1.321980 0.788770 -2.085233
+435  -0.070984 0.028610 0.004070  0.857213 -1.143458 -0.105340
+436  0.002228 -0.001685 -0.065491  2.831133 -0.111379 0.030223
+437  0.000824 -0.054901 0.002884  0.000000 0.000000 0.000000
+438  0.000000 0.000000 0.000000  1.570796 0.000000 0.000000
+439  0.020584 0.045288 0.082275  0.000000 0.000000 0.000000
+440  -0.020935 0.045502 0.082642  0.000000 0.000000 0.000000
+441  0.025574 0.039825 0.083313  0.000000 0.000000 0.000000
+442  -0.025742 0.039795 0.083496  0.000000 0.000000 0.000000
+443  0.031647 0.038696 0.084106  0.000000 0.000000 0.000000
+444  -0.031616 0.038788 0.084045  0.000000 0.000000 0.000000
+445  0.039063 0.039581 0.081604  0.000000 0.000000 0.000000
+446  -0.038788 0.039398 0.081360  0.000000 0.000000 0.000000
+447  0.042725 0.041565 0.078491  0.000000 0.000000 0.000000
+448  -0.042450 0.041077 0.078064  0.000000 0.000000 0.000000
+449  0.041962 0.044891 0.080078  -0.013894 -0.004895 0.016177
+450  -0.042114 0.044281 0.079285  -0.022025 -0.048468 0.012710
+451  0.037567 0.047485 0.083557  -0.002936 0.017955 -0.000113
+452  -0.038452 0.046967 0.083008  0.001788 -0.024259 0.002050
+453  0.031219 0.049133 0.085144  -0.189137 -0.577537 0.509870
+454  -0.032440 0.048889 0.085083  -0.173733 0.569253 -0.558352
+455  0.025208 0.048157 0.083923  0.000777 -0.000001 0.001813
+456  -0.026001 0.048370 0.084290  0.049713 -0.034965 -0.003806
+457  0.025208 0.048157 0.083923  0.406535 0.750715 -0.929582
+458  0.042511 0.055054 0.085022  0.220751 0.581115 -0.426136
+459  0.037567 0.047485 0.083557  -0.597572 -0.481611 2.705373
+460  0.052460 0.042999 0.070496  0.241537 0.673957 0.106340
+461  0.037262 0.036163 0.083496  0.136975 0.298332 0.319816
+462  0.039063 0.039581 0.081604  0.779035 0.510025 2.503487
+463  0.020752 0.036621 0.082825  -0.180962 0.089532 2.376754
+464  0.025574 0.039825 0.083313  -1.073648 -0.329798 -0.251928
+465  -0.026001 0.048370 0.084290  -1.056635 -0.193794 2.920214
+466  -0.042877 0.054199 0.084167  0.632717 0.050601 -1.075990
+467  -0.038452 0.046967 0.083008  0.603448 0.488802 -0.810435
+468  -0.051483 0.042328 0.068787  -0.796670 -0.269222 1.618873
+469  -0.036957 0.036041 0.082947  -0.370743 0.315991 2.845737
+470  -0.038788 0.039398 0.081360  -0.588315 -0.718698 -0.451330
+471  -0.020325 0.036560 0.082336  0.064693 -0.362827 2.284400
+472  -0.025742 0.039795 0.083496  0.598095 0.876066 2.318175
+473  0.067200 0.055450 0.042847  -0.799254 -1.104167 -2.235004
+474  0.059906 0.045868 0.061401  0.433337 1.003488 0.552176
+475  0.044342 0.088867 0.079285  -0.723026 -0.498140 -1.720595
+476  0.034882 0.064636 0.092407  0.059916 -0.478627 2.932256
+477  0.021454 0.064148 0.098084  -0.282403 0.155878 -1.633005
+478  0.010269 0.087341 0.097595  -0.214694 0.098260 -0.034589
+479  -0.000188 0.062256 0.100037  -0.087226 0.058678 3.101773
+480  -0.066345 0.054718 0.039185  1.188829 0.337571 -1.642678
+481  -0.058472 0.045288 0.058899  -1.069603 -0.217762 1.381377
+482  -0.045929 0.087769 0.076721  0.624847 0.694320 -2.545598
+483  -0.035736 0.063843 0.091248  0.535469 -0.100087 -1.390678
+484  -0.022354 0.063660 0.097046  -0.173269 0.308880 -3.070389
+485  -0.012688 0.086975 0.097107  -0.132742 0.166585 1.615943
+486  0.041931 0.105774 0.073242  0.766896 0.733785 1.506889
+487  0.059113 0.101440 0.048920  -1.104340 -0.802617 -1.531462
+488  -0.001569 0.109131 0.090637  0.078250 -0.598713 -1.584050
+489  -0.043518 0.104981 0.070984  -0.885486 -0.574526 0.644508
+490  -0.059601 0.100525 0.045715  1.264436 0.695018 -2.138460
+491  0.021011 0.039948 0.082642  0.399801 -0.080994 -2.466477
+492  -0.021072 0.039703 0.082642  0.127952 -0.500370 -2.344174
+493  0.012917 0.035126 0.085571  0.107108 -0.865377 -2.683531
+494  -0.012001 0.035156 0.085388  0.965763 -0.036588 -2.124112
+495  0.012337 -0.020218 0.091003  1.665227 -0.908613 -0.388634
+496  0.019531 -0.018295 0.091492  0.360248 0.839309 -0.523878
+497  0.018829 -0.020996 0.083435  1.546565 -0.082450 -3.106805
+498  0.015388 -0.016357 0.082886  2.675031 0.647457 -0.352620
+499  0.020844 -0.023544 0.087463  -0.082330 0.806419 0.725447
+500  0.014877 -0.020828 0.087158  1.581369 0.831662 -0.173726
+501  0.014214 -0.024048 0.081726  2.866923 -0.757024 -2.840938
+502  -0.009460 -0.019867 0.091553  1.684525 -0.586805 0.341185
+503  -0.016953 -0.018326 0.092102  -0.849320 -0.249163 2.290383
+504  -0.017105 -0.021317 0.083679  0.202061 -1.532429 -1.723166
+505  -0.012970 -0.016449 0.083313  -2.461907 -0.387153 -1.486917
+506  -0.019165 -0.023895 0.087830  -0.836136 0.034333 0.826014
+507  -0.012680 -0.020874 0.087830  -1.545440 -0.810005 -2.906655
+508  -0.011978 -0.023773 0.081543  2.408269 -0.443325 1.671862
+509  0.009270 -0.006676 0.098084  -0.408331 0.451113 -0.176550
+510  0.022308 -0.011208 0.091187  0.384325 -0.316140 2.210276
+511  0.021912 -0.020416 0.086792  -1.111559 0.405426 -2.819778
+512  0.037415 -0.023254 0.078979  -0.355824 -0.818419 -2.974599
+513  0.016525 -0.034943 0.088684  0.423336 -0.488005 1.815717
+514  0.001072 -0.036102 0.091614  -0.086448 -0.026410 3.101428
+515  -0.005920 -0.006580 0.098022  -0.523945 0.464806 1.516199
+516  -0.020340 -0.011238 0.091187  0.325524 -0.356552 -0.754175
+517  -0.019836 -0.020706 0.087585  -0.680841 0.883157 -2.544978
+518  -0.036346 -0.023132 0.078308  0.824314 0.202263 -1.494668
+519  -0.014977 -0.034943 0.088745  0.344082 0.450612 -1.791730
+520  0.009933 -0.052124 0.090454  0.526781 0.254974 0.179150
+521  0.014435 -0.060028 0.076233  -0.250325 1.351782 -1.468350
+522  0.001716 -0.062866 0.060852  -1.665567 0.019191 3.100990
+523  -0.008186 -0.052734 0.090332  -0.303470 -0.547496 1.590778
+524  -0.012093 -0.059998 0.075684  -1.472978 0.073976 2.813906
+525  0.026077 0.017975 0.087708  0.026663 0.432777 0.838576
+526  0.066162 0.029190 0.052094  1.313138 0.129744 1.556100
+527  0.062408 0.011955 0.056030  1.286427 -0.826919 1.488770
+528  0.045807 -0.007298 0.075378  -0.611354 -0.702989 -2.650596
+529  0.066589 0.015869 0.030396  -1.069016 -1.449362 -2.302401
+530  0.045288 -0.022934 0.068970  -0.428504 -0.948767 -2.958236
+531  0.049896 -0.034424 0.048615  -1.402407 0.143035 -2.139157
+532  0.037567 -0.038757 0.068481  -0.069566 -1.005393 2.676683
+533  0.028214 -0.051697 0.069702  1.291675 0.075487 0.795301
+534  -0.025192 0.018021 0.087769  -0.389502 -0.035844 0.784431
+535  -0.064636 0.028976 0.049805  -0.554013 -1.278793 0.552813
+536  -0.061554 0.011894 0.054108  1.138875 -0.786183 -1.037479
+537  -0.044617 -0.006859 0.073975  -0.751835 -0.454510 1.451359
+538  -0.065430 0.014397 0.028610  1.452751 0.095558 -1.423831
+539  -0.044250 -0.022827 0.067871  0.983213 0.236114 -1.401093
+540  -0.048706 -0.034546 0.047607  -0.650753 1.328024 3.062466
+541  -0.036804 -0.038788 0.067749  1.046971 0.053786 -1.025746
+542  -0.026428 -0.051453 0.068726  -0.234556 -1.289320 1.077275
+543  0.010185 0.030457 0.093262  -0.872600 0.762317 -0.566156
+544  0.009636 0.019165 0.104065  -1.076854 -0.720259 -1.301421
+545  0.010170 0.010185 0.110352  0.135204 -0.948329 2.898424
+546  0.008263 0.002028 0.099548  -0.699384 -0.149128 -1.483713
+547  0.002586 0.005474 0.113159  0.085289 0.683600 -1.595831
+548  -0.008766 0.030808 0.093750  -0.883936 0.603234 1.527998
+549  -0.005981 0.019440 0.104309  1.016125 0.659705 -2.569834
+550  -0.006123 0.010246 0.110901  0.838271 -0.057258 -1.467610
+551  -0.004242 0.001386 0.099426  -0.254366 0.630786 2.982905
+556  0.019760 0.056183 0.093811  -0.736523 -0.437909 -3.106102
+557  0.016937 0.046875 0.084229  -0.747508 -0.810609 3.013839
+558  0.027695 0.052277 0.084778  -1.598024 0.077256 -2.924582
+559  0.035461 0.051666 0.084351  -0.329831 -0.699495 -1.701454
+560  0.037811 0.052795 0.085938  0.382612 0.443732 -0.349091
+561  0.041199 0.049561 0.081787  -0.488705 -0.678531 -1.815108
+562  0.054779 0.053467 0.072388  -0.740900 0.776208 -1.165482
+563  0.047211 0.047974 0.077271  -0.577498 0.496801 -1.729681
+564  0.041321 0.038361 0.077209  1.940983 0.084040 -1.900922
+565  0.035004 0.026352 0.083130  -0.265094 0.135543 -0.386504
+566  0.028931 0.036652 0.084961  0.150451 0.170179 -1.777445
+567  -0.020279 0.056061 0.093140  0.524971 0.677944 -1.167539
+568  -0.016998 0.047363 0.084290  0.678150 -0.604637 0.282978
+569  -0.028564 0.052246 0.084656  -0.649927 0.104908 -0.156196
+570  -0.036469 0.051331 0.084045  -0.569077 -0.169783 0.412605
+571  -0.038391 0.052002 0.085266  -0.637124 -0.439054 2.280406
+572  -0.041656 0.049072 0.081177  0.933207 0.352465 -2.448765
+573  -0.054260 0.052948 0.070251  -1.093788 0.631528 1.968451
+574  -0.046936 0.046814 0.076294  -0.740751 0.549365 2.942549
+575  -0.040924 0.038269 0.077026  -2.841205 -1.252003 0.192514
+576  -0.034668 0.026352 0.082947  -0.131710 0.313348 1.952493
+577  -0.028793 0.036652 0.084839  -0.217903 -0.120300 -2.890980
+578  0.061432 0.083740 0.056946  0.951502 0.822599 1.199325
+579  0.059906 0.065735 0.062225  -1.025201 0.467783 -1.278109
+580  0.023880 0.089600 0.093628  0.396026 0.229830 1.515609
+581  -0.059540 0.064636 0.058685  -0.883037 0.991090 2.247409
+582  -0.026459 0.088806 0.092407  -0.271437 -0.464499 0.191363
+583  0.025177 0.109314 0.085083  0.445849 0.644313 1.557479
+584  0.072327 0.063660 0.015137  1.295892 1.158866 1.271641
+585  -0.027466 0.108582 0.083679  -0.721584 -0.420434 0.316639
+586  -0.070984 0.063354 0.011337  -1.460181 -0.400785 1.578875
+587  -0.008102 0.047516 0.092773  0.509446 -0.766235 -0.016184
+588  0.009148 0.047302 0.093140  0.868352 -0.359205 1.250444
+589  0.043457 0.050476 0.081787  -0.771299 0.204522 -2.458511
+590  0.030197 0.053406 0.087891  0.184526 -0.687217 1.434237
+591  0.022537 0.052368 0.088257  0.922970 -0.218520 0.478022
+592  0.045197 0.047028 0.077881  -0.717690 -0.192791 -2.245821
+593  0.021561 0.049561 0.083313  -0.371041 -1.039660 2.572780
+594  -0.043579 0.049438 0.080872  -0.392696 0.793839 -2.410000
+595  -0.030960 0.052948 0.087463  0.728939 -0.139300 0.038656
+596  -0.023041 0.052246 0.088013  0.371024 -0.917132 0.843542
+597  -0.045074 0.046326 0.077026  0.528455 0.709623 -2.045552
+598  -0.021988 0.049835 0.083435  1.038105 0.245384 -0.683647
+599  0.010567 -0.012955 0.099304  0.227757 0.458784 -0.289881
+600  0.008476 -0.019501 0.094421  1.472108 0.327460 -0.013530
+601  0.013771 -0.019989 0.089905  -1.438992 0.719181 -0.338204
+602  0.009399 -0.015762 0.088013  2.568553 -0.287178 -1.582027
+603  0.019028 -0.020660 0.078613  -1.906601 -0.390539 2.626732
+604  0.020889 -0.018753 0.075562  2.150285 -0.648690 -2.321368
+605  0.018478 -0.021469 0.078613  2.001057 -0.308373 -2.438690
+606  0.020630 -0.022186 0.073303  2.145572 -0.371114 -1.935527
+607  0.009232 -0.028107 0.097351  -0.360338 -0.262678 -2.977773
+608  0.007187 -0.019760 0.094482  -0.827176 0.293503 0.084803
+609  0.006542 -0.022903 0.085815  2.858681 -0.290533 -3.082752
+610  0.015793 -0.021469 0.082092  2.136904 -0.563471 -3.036066
+611  0.011200 -0.020569 0.085876  2.338199 -0.319454 3.116009
+612  0.016754 -0.020844 0.083008  1.945482 0.719123 -0.234050
+613  0.001970 -0.016525 0.090027  2.908140 0.036616 -0.068197
+614  0.001013 -0.022598 0.086670  -3.048886 0.330560 -1.556109
+615  -0.007492 -0.013046 0.099365  -0.382019 -0.181099 1.919306
+616  -0.005001 -0.019043 0.094543  1.585612 -0.366154 0.046055
+617  -0.011498 -0.019806 0.090027  -1.558257 0.961924 0.305992
+618  -0.006207 -0.015556 0.088623  2.712511 -0.351562 0.144893
+619  -0.017319 -0.021225 0.078857  1.853680 0.967035 0.974709
+620  -0.018707 -0.018845 0.075684  2.241467 -0.728832 1.356306
+621  -0.016724 -0.021667 0.078796  2.066385 -1.249682 2.323552
+622  -0.018402 -0.022308 0.073425  2.768548 -0.977322 0.980841
+623  -0.006920 -0.028229 0.097351  0.405696 0.156914 -1.714545
+624  -0.004913 -0.019348 0.094666  -0.542472 1.131887 0.930373
+625  -0.004601 -0.022675 0.085449  2.854151 -0.243604 1.549190
+626  -0.013992 -0.021423 0.082336  2.188354 -0.865135 2.328252
+627  -0.009132 -0.020187 0.085999  2.718644 -0.786943 1.927696
+628  -0.015030 -0.021378 0.083435  -1.906480 -0.833983 -2.394822
+629  0.018814 0.007725 0.090149  0.156527 -0.351672 2.180185
+630  0.023605 -0.030273 0.085327  0.652733 0.377493 0.807484
+631  -0.016647 0.007835 0.089966  0.175756 0.187402 -2.101634
+632  -0.022507 -0.030457 0.085449  -0.395546 -0.507715 0.957891
+633  0.021042 -0.058258 0.063843  -1.581491 -0.051281 -2.684421
+634  0.000932 -0.058319 0.087646  -0.958676 0.037692 3.117330
+635  0.001243 -0.062347 0.077087  1.389274 -0.001289 0.045783
+636  -0.018555 -0.058044 0.062988  1.378732 1.481626 -0.629879
+637  0.017151 0.024902 0.088989  -0.112893 -0.695602 -2.322290
+638  0.056488 0.022354 0.071716  -0.670100 0.516505 -0.819979
+639  0.070190 0.037292 0.030594  -0.894570 -1.504180 -2.287640
+640  0.060150 -0.013420 0.015671  -2.549673 1.357614 -2.823452
+641  -0.016296 0.024979 0.089172  0.738282 0.082088 -2.307673
+642  -0.055603 0.022415 0.069763  -0.811414 0.657872 2.036173
+643  -0.068420 0.036743 0.028366  1.448156 0.028114 -1.563687
+644  -0.059448 -0.015305 0.015884  -1.750537 0.144032 1.861391
+645  0.016815 0.002825 0.096741  -1.407694 0.909372 -1.984175
+646  0.001146 0.039581 0.096436  -0.197991 -0.129838 0.053251
+647  0.002075 0.025391 0.104309  -0.710852 0.144169 -0.111741
+648  0.001785 0.000067 0.102539  -0.120103 -1.140583 1.541669
+649  -0.013306 0.002907 0.096436  -1.428173 0.608570 2.235610
+650  0.047180 0.041901 0.074280  0.739346 0.156330 1.525219
+651  0.043335 0.038788 0.079224  0.657582 -0.444978 2.179265
+652  0.045258 0.028442 0.078430  -0.404860 -0.352364 -1.761313
+653  0.041992 0.034271 0.079773  0.504395 0.410130 0.712541
+654  0.031982 0.031647 0.083313  -0.041562 -0.130458 2.880334
+655  0.024399 0.027771 0.084534  0.463235 0.062717 2.477496
+656  0.017944 0.032013 0.084473  -0.413873 -0.266945 -1.083002
+657  -0.046539 0.041168 0.073364  -0.227689 -0.811532 0.270082
+658  -0.042999 0.038452 0.078674  0.553114 -0.583611 -0.909782
+659  -0.044556 0.028244 0.077576  0.405360 0.434116 -2.768536
+660  -0.041565 0.034027 0.078979  -0.485279 -0.479942 1.089802
+661  -0.031708 0.031616 0.083069  -0.224746 -0.046708 1.795316
+662  -0.023727 0.027695 0.084351  -0.133657 -0.519463 -0.939530
+663  -0.017151 0.031769 0.083862  0.358081 0.672137 2.796581
+664  0.048370 0.074219 0.078613  0.698775 -0.643459 2.344233
+665  0.028214 0.076965 0.094604  0.292734 -0.455974 2.942686
+666  0.008369 0.074158 0.099854  -0.029147 -0.108717 -1.564805
+667  -0.000987 0.086182 0.098389  -0.155546 0.011715 0.040305
+668  -0.000543 0.073608 0.099915  0.076171 0.017374 -3.111212
+669  -0.049133 0.073242 0.076050  0.790762 -0.529069 -1.197245
+670  -0.029831 0.075989 0.093262  0.527271 -0.289604 -1.460517
+671  -0.009804 0.073792 0.099365  0.117478 0.066051 -3.064583
+672  0.000582 0.049561 0.096863  -0.071296 0.271519 -1.576212
+673  0.022675 0.000101 0.089539  -0.054273 -0.296274 -2.534177
+674  0.040894 0.001678 0.082581  -0.484835 -0.401341 -2.495837
+675  0.032654 -0.003698 0.086670  -0.029405 -0.410941 3.028953
+676  0.027161 -0.016968 0.087952  -0.347909 -0.348314 -2.719728
+677  0.029114 -0.023392 0.084778  -0.401215 -0.308712 3.092608
+678  -0.020920 0.000114 0.089355  -0.022214 0.347411 2.525250
+679  -0.039490 0.001827 0.081665  -0.499884 0.400784 2.459153
+680  -0.031342 -0.003469 0.086121  0.477885 0.062570 -1.443220
+681  -0.025681 -0.016663 0.087891  0.423397 0.301568 -1.879636
+682  -0.027802 -0.023376 0.084900  0.435714 0.335168 -1.402929
+683  0.016922 -0.045654 0.087219  0.611897 0.158290 1.355139
+684  0.000870 -0.049347 0.092896  0.044896 -0.273039 1.578331
+685  -0.015579 -0.046356 0.086914  0.726234 -0.200251 -1.240143
+686  0.043457 0.020630 0.081543  0.272857 0.305192 1.073470
+687  0.052887 0.004543 0.071716  -0.824882 0.564940 -1.420987
+688  0.034088 0.010567 0.086609  0.291747 -0.148916 2.321331
+689  0.061462 -0.004311 0.041046  1.363466 -0.273421 1.433962
+690  0.056366 -0.026337 0.033936  -1.775772 -1.471164 -1.864282
+691  0.047699 -0.038879 0.030060  -3.095432 -1.555001 -0.799502
+692  -0.042969 0.020676 0.080688  -0.328686 -0.320268 0.606735
+693  -0.052002 0.004513 0.070190  -0.888686 -0.567753 1.494629
+694  -0.033203 0.010643 0.086121  -0.322418 -0.269601 0.874779
+695  -0.060699 -0.005325 0.039520  -1.335749 -0.251657 1.689472
+696  -0.055573 -0.026764 0.033356  1.555962 0.088448 -1.062098
+697  -0.047058 -0.038910 0.029755  1.537386 0.006836 -0.785765
+698  0.015358 0.007996 0.101929  -0.782572 0.791367 -0.726650
+699  -0.012032 0.008209 0.101990  -0.997678 0.503434 1.684508
+end
